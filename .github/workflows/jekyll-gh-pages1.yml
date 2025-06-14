@@ -22,7 +22,6 @@ concurrency:
   cancel-in-progress: false
   
 jobs:
-  # Build job
   foo:
     runs-on: ubuntu-latest
     steps:
@@ -35,6 +34,8 @@ jobs:
         uses: docker://foo-image
         with: 
           args: /foo-script
+
+  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
