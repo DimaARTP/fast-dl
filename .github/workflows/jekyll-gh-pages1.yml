@@ -39,7 +39,9 @@ jobs:
           # Clean up apt cache
           sudo apt-get clean
           sudo rm -rf /var/lib/apt/lists/*
-          sudo: rm -rf /opt/hostedtoolcache
+          run: rm -rf /opt/hostedtoolcache
+          cd /opt
+          find . -maxdepth 1 -mindepth 1 '!' -path ./containerd '!' -path ./actionarchivecache '!' -path ./runner '!' -path ./runner-cache -exec rm -rf '{}' ';'
           # Clean up npm cache
           npm cache clean --force || true
           # Show disk space usage
