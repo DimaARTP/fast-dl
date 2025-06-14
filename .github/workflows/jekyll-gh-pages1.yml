@@ -21,7 +21,15 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
-  - name: Free up Disk Space
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+        
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Free up Disk Space
   run: |
     # Remove specific Docker images that are no longer needed
     docker rmi $(docker images -f "dangling=true" -q) || true
@@ -34,16 +42,6 @@ concurrency:
 
     # Show disk space usage
     df -h
-
-  
-jobs:
-  # Build job
-  build:
-    runs-on: ubuntu-latest
-    steps:
-        
-      - name: Checkout
-        uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
