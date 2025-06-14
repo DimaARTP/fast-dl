@@ -22,22 +22,9 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  foo:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Delete huge unnecessary tools folder
-        run: rm -rf /opt/hostedtoolcache
-
-      - uses: actions/checkout@v3
-
-      - name: Run foo
-        uses: docker://foo-image
-        with: 
-          args: /foo-script
   # Build job
   build:
     runs-on: ubuntu-latest
-    needs: foo
     steps:
         
       - name: Checkout
@@ -50,6 +37,7 @@ jobs:
           # Clean up apt cache
           sudo apt-get clean
           sudo rm -rf /var/lib/apt/lists/*
+          sudo: rm -rf /opt/hostedtoolcache
           # Clean up npm cache
           npm cache clean --force || true
           # Show disk space usage
