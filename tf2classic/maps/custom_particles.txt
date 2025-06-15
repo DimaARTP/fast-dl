@@ -54,20 +54,4 @@ particles_manifest
 	"file"  	"!particles/nowp_drg_cm5k.pcf"			// New-Old Weapons Pack's Particles (Cow Mangler 5000). Yes, a file for a single weapon. This has way too many particles...
 	"file"  	"!particles/nowp_flamethrower.pcf"		// New-Old Weapons Pack's Particles (Flamethrowers)
 	"file"  	"!particles/nowp_medigun.pcf"			// New-Old Weapons Pack's Particles (Mediguns)
-	 file   "particles/scattershock_fx.pcf"
-	 file   "particles/db_tracers.pcf"
-	 file	"particles/bioshock_steam.pcf"
-	 file	"particles/icethrower2.pcf"
-	 file	"particles/bees.pcf"
-	 file	"particles/laser_tracers.pcf"
-	 file	"particles/farts.pcf"
-	 file	"particles/smokebombtest.pcf"
-	 file	"particles/moneytrail2.pcf"
-	 file	"particles/beer_explosion.pcf"
-	 file	"particles/scrapshotguntracer.pcf"
-	 file	"particles/flak_explosion.pcf"
-	 file	"particles/plasma_balls.pcf"
-	 file	"particles/pancake_particles.pcf"
-	 file	"particles/energy_ball.pcf"
-	 file	"particles/fireball_test.pcf"
 }
