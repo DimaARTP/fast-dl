@@ -3742,17 +3742,17 @@
 				"hide_attrib_additive"
 				{
 					"attribute_class"	"mult_spread_scale"
-					"value"				"0.14"
+					"value"				"0.65"
 				}
 				"bullets per shot bonus"
 				{
 					"attribute_class"	"mult_bullets_per_shot"
-					"value"				"12"
+					"value"				"16"
 				}
 				"apply self knockback hidden"
 				{
 					"attribute_class"	"apply_self_knockback"
-					"value"				"200"
+					"value"				"150"
 				}
 				"weapon enemy knockback mod mult hidden"
 				{
@@ -3777,7 +3777,7 @@
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"				"0.137"
+					"value"				"0.2"
 				}
 			}
 			"visuals"
@@ -3933,15 +3933,15 @@
 			}
 			"attributes"
 			{
-				"dmg taken from burning target reduced on active"
+				"dmg taken from bullets reduced"
 				{
-					"attribute_class"	"mult_dmgtaken_from_burning_target_active"
-					"value"				"0.6"
+					"attribute_class"	"mult_dmgtaken_from_bullets"
+					"value"				"0.5"
 				}
 				"move speed penalty"
 				{
 					"attribute_class"	"mult_player_movespeed"
-					"value"				"0.9"
+					"value"				"0.45"
 				}
 				"crits become minicrits"
 				{
@@ -7014,6 +7014,16 @@ Don't be next on me head-count, lad!"
 					"attribute_class"	"clipsize_increase_on_kill"
 					"value"				"1"
 				}
+				"fire rate bonus"
+				{
+					"attribute_class"	"display_only" //roughly idk
+					"value"				"0.7"
+				}
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"				"0.7"
+				}
 				"rocket jump damage reduction"
 				{
 					"attribute_class"	"rocket_jump_dmg_reduction"
@@ -8057,27 +8067,27 @@ Don't be next on me head-count, lad!"
 			    "ubercharge rate bonus"												
 				{
 					"attribute_class"	"mult_medigun_uberchargerate"
-					"value" 			"2.75"
+					"value" 			"3"
 				}
 			    "dmg taken from fire reduced" 											
 				{
 					"attribute_class"	"mult_dmgtaken_from_fire"
-					"value" 			"0.8"
+					"value" 			"0.75"
 				}
 			    "dmg taken from blast reduced"											
 				{
 					"attribute_class"	"mult_dmgtaken_from_explosions"
-					"value" 			"0.8"
+					"value" 			"0.75"
 				}
 			    "dmg taken from bullets reduced"											
 				{
 					"attribute_class"	"mult_dmgtaken_from_bullets"
-					"value" 			"0.8"
+					"value" 			"0.75"
 				}
 			    "uber duration decreased"												
 				{
 					"attribute_class"	"add_uber_time_active"
-					"value" 			"0.4"
+					"value" 			"0.35"
 				}
 				"ubercharge overheal rate penalty"
 				{
@@ -8177,7 +8187,7 @@ Don't be next on me head-count, lad!"
 				"gain stored crits on kill"
 				{
 					"attribute_class"	"gain_stored_crits_on_kill"
-					"value" 			"3"
+					"value" 			"2"
 				}
 				"chekhov punch VISUAL ONLY CRITS CONSUMED BY ALL WEAPONS"
 				{
@@ -11516,7 +11526,7 @@ A silver tongue is no match, for one bullet."
 			"prefab"					"weapon_shotgun"
 			"item_class"					"tf_weapon_shotgun_soldier"
 			"item_quality"				"normal"
-			"show_in_armory"			"1"
+			"show_in_armory"			"0"
 			"item_slot"					"secondary"
 			"anim_slot"					"secondary2"
 
@@ -12785,17 +12795,17 @@ Your ankles are gonna thank you for this!"
 				"Blast radius increased"
 				{
 					"attribute_class"	"mult_explosion_radius"
-					"value"				"1.2"
+					"value"				"0.55"
 				}
 				"clip size penalty"
 				{
 					"attribute_class"	"mult_clipsize"
-					"value"				"0.75"
+					"value"				"0.5"
 				}
 				"Projectile speed decreased"
 				{
 					"attribute_class"	"mult_projectile_speed"
-					"value"				"0.8"
+					"value"				"2.15"
 				}
 				"custom projectile model"
 				{
@@ -15104,12 +15114,12 @@ It does, doesn't it?!'"
 				"heal on hit for rapidfire"
 				{
 					"attribute_class"	"add_onhit_addhealth"
-					"value"				"15"
+					"value"				"10"
 				}
 				"heal on kill"
 				{
 					"attribute_class"	"heal_on_kill"
-					"value"				"50"
+					"value"				"25"
 				}
 				"fire rate bonus"
 				{
