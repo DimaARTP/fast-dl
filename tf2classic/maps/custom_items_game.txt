@@ -6124,8 +6124,13 @@ Don't be next on me head-count, lad!"
 				"heal on kill"
 				{
 					"attribute_class"	"heal_on_kill"											// TO-DO: This leaks if getting a delayed kill with another weapon. VERY BAD ON EXPLOSIVE CLASSES
-					"value"				"50"
-				}			
+					"value"				"75"
+				}
+				"add condition on kill"
+				{
+					"attribute_class"	"add_onkill_addcond_self"
+					"value"				"141 3"
+				}
 				"deploy time increased DISPLAY ONLY"
 				{
 					"attribute_class"	"DISPLAY_ONLY"
@@ -14794,12 +14799,12 @@ How about another drink this time, eh?"
                 "civ boost cond override"
 				{
 					"attribute_class"	"add_civ_boost_override"
-					"value" 			"121 0.8" 
+					"value" 			"121 1.25" 
 				}
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"				"0.8"
+					"value"				"0.25"
 				}
 				"allowed in medieval mode"
 				{
@@ -15027,7 +15032,7 @@ It does, doesn't it?!'"
 				"move speed bonus"
 				{
 					"attribute_class"	"mult_player_movespeed"
-					"value" 			"1.1"
+					"value" 			"1.15"
 				}
 				"max health additive bonus"
 				{
@@ -15537,12 +15542,12 @@ I'll make those wounds of yours even worse!"
 				"wearable cond on effect percent"
 				{
 					"attribute_class"	"add_wearable_cond_on_effect_percent"
-					"value"				"112 0.5"
+					"value"				"33 0.35"
 				}
 //				"mult shield bash damage"
 //				{
 //					"attribute_class"	"mult_shield_bash_damage"
-//					"value"				"0.5"
+//					"value"				"0.35"
 //				}
 				"allowed in medieval mode"
 				{
