@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weewilly/c_weewilly_large"
+	"$translucent"	"1"
+	"$vertexcolor"	"1"
+	"$ignorez"	"1"
+}

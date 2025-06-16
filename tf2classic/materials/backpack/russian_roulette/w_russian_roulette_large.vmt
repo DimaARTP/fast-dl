@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/russian_roulette/w_russian_roulette_large"
+	"$translucent"	"1"
+	"$vertexcolor"	"1"
+	"$ignorez"	"1"
+}

@@ -90,8 +90,5 @@
 			"srcVar2"  "$basephongboost"
 			"resultVar" "$phongboost" 
 		}
-		"WeaponSkin"
-		{
-		}
 	}
 }

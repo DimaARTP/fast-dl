@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\workshop\weapons\c_models\c_chain_bat\c_chain_bat_large"
+	"$translucent"	"1"
+	"$vertexcolor"	"1"
+	"$ignorez"	"1"
+}
+

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/spinal_fantasy/c_spinal_fantasy_large"
+	"$translucent"	"1"
+	"$vertexcolor"	"1"
+	"$ignorez"	"1"
+}

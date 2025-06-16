@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" 	"backpack\weapons\c_models\c_medievaldagger\c_medievaldagger_large"
+	"$translucent"	"1"
+	"$vertexcolor"	"1"
+	"$ignorez"	"1"
+}
+

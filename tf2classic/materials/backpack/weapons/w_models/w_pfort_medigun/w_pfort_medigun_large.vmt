@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "backpack\weapons\w_models\w_pfort_medigun\w_pfort_medigun_large"
-	"$translucent"	"1"
-	"$vertexcolor"	"1"
-	"$ignorez"	"1"
-}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\workshop\weapons\c_models\c_heavy_duty_sticky_launcher\c_heavy_duty_sticky_launcher"
+	$translucent 1
+	$vertexcolor 1
+}

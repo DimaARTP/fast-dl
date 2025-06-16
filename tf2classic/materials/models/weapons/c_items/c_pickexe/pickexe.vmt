@@ -1,0 +1,45 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/c_items/c_pickexe/pickexe"
+//	"$normalmap" "models/weapons/c_items/c_pickexe/pickexe_N"
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" "0.5"	
+	
+	"$phongfresnelranges"	"[.25 .5 20]"
+	"$halflambert" "1"
+
+	"$basemapalphaphongmask" "1"
+	
+	// Rim lighting parameters
+	"$rimlight" "1"					
+	"$rimlightexponent" "4"		
+	"$rimlightboost" "2"
+
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}
+

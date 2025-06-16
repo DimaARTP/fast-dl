@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "backpack/commandoknife/c_commandoknife_large"
+	"$translucent"	"1"
+	"$vertexcolor"	"1"
+	"$ignorez"	"1"
+}

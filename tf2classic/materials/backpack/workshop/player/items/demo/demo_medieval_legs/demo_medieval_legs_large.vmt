@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/demo_medieval_legs/demo_medieval_legs_large"
+	"$translucent"	"1"
+	"$vertexcolor"	"1"
+	"$ignorez"	"1"
+}

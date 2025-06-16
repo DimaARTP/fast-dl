@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/weapons/v_sniperrifle/v_sniperrifle_scope"
+	"$basetexture" "models/weapons/c_items/c_sniperrifle_scope"
 
 	"$basemapalphaphongmask" "1"
 	"$basealphaenvmapmask" "1"

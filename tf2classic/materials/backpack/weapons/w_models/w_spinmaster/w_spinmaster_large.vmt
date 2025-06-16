@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "backpack\weapons\w_models\w_spinmaster\w_spinmaster_large"
-	"$translucent"	"1"
-	"$vertexcolor"	"1"
-	"$ignorez"	"1"
-}

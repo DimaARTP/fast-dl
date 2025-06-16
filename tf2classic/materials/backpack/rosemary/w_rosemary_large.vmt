@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\rosemary\w_rosemary_large"
+	"$translucent"	"1"
+	"$vertexcolor"	"1"
+	"$ignorez"	"1"
+
+}

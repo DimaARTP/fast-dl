@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/sniper/preventative_measure/preventative_measure"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

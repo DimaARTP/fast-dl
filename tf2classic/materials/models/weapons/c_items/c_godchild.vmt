@@ -1,17 +1,25 @@
 "VertexlitGeneric"
 {
-	"$baseTexture" "models\weapons\c_models/c_silencer_revolver/c_revolver"
+	"$baseTexture" "models\weapons\c_models/c_godchild/c_revolver"
 	
 	"$phong" "1"
-	"$phongexponent" "6"
-	"$phongboost" "2.7"	
-	"$lightwarptexture" "models\lightwarps\softened_weapon_lightwarp"
-	"$phongfresnelranges"	"[.5 .5 3]"
-	"$halflambert" "1"
-	"$glowcolor" "1"
+	"$phongboost" "120"	
+	"$phongexponentfactor"  "1"
+	"$basemapalphaphongmask" "1"
+	"$phongalbedotint" "1"
+	"$phongexponenttexture"	"models/weapons/albedo_tint"
+	"$phongwarptexture"  "models/player/items/all_class\qc_lightwarp"
 
 	"$phongfresnelranges"	"[1.5 .5 3]"
-	"$glowcolor" "1"	
+	"$glowcolor" "1"
+
+	"$detail" 	"models/weapons/c_models/c_godchild/p_revolver_albedo_burnt"
+	"$detailscale" "1"
+	"$detailblendfactor" "0.9"
+	"$detailblendmode" "0"
+	"$phongfresnelranges"	"[1.5 .5 3]"
+	"$halflambert" "1"
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"	
 
 	"$basemapalphaphongmask" "1"
 	
