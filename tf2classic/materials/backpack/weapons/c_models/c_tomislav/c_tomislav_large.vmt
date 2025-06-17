@@ -1,7 +1,5 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "backpack/weapons/c_models/c_tomislav/c_tomislav_large"
-	"$translucent"	"1"
-	"$vertexcolor"	"1"
-	"$ignorez"	"1"
+	"$baseTexture" "backpack\workshop\weapons\c_models\c_ppsh_minigun\c_ppsh_minigun_large"
+	$translucent 1
 }
