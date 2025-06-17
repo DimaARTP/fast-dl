@@ -2988,7 +2988,7 @@
 			"mouse_pressed_sound"		"#ui/item_pack_pickup.wav"
 			"drop_sound"				"#ui/item_pack_drop.wav"
 		}
-		"5322"
+		"30007"
 		{
 			"name"						"TF_WEAPON_UNFORTUNATE_SON"
 			"prefab"					"weapon_shotgun"								
