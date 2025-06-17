@@ -2988,6 +2988,79 @@
 			"mouse_pressed_sound"		"#ui/item_pack_pickup.wav"
 			"drop_sound"				"#ui/item_pack_drop.wav"
 		}
+		"5322"
+		{
+			"name"						"TF_WEAPON_UNFORTUNATE_SON"
+			"prefab"					"weapon_shotgun"								
+			"show_in_armory"			"1"
+			"item_slot"					"secondary"
+
+			"propername"				"1"
+			"item_name_color"			"255 240 183 255"
+			"item_name"					"Unfortunate Son"
+			"item_type_name"			"#TF_Weapon_Shotgun"
+			"item_description"			"
+Hiding won't save you now!"
+			"item_logname"				"unfortunate_son"
+			"item_iconname"				""
+			"image_inventory"			"backpack\weapons\w_models\w_jungle_shotgun\w_jungle_shotgun"
+			"model_world"				"models\w_models\w_jungle_shotgun.mdl"
+			"model_player"				"models\v_models\v_jungle_shotgun_soldier.mdl"
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"soldier"				"1"
+			}
+			"static_attrs"
+			{
+				"Reload time refill"		"1.15"
+			}
+			"attributes"
+			{
+				"mod crit while airborne"
+				{
+					"attribute_class"	"crit_while_airborne"
+					"value"				"1"
+				}
+				"weapon spread bonus"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"				"1.35"
+				}
+				"take crits from projectile during blast jump"
+				{
+					"attribute_class"	"take_crits_projectile_blast_jump"
+					"value"				"1"
+				}
+				"deploy time increased"
+				{
+					"attribute_class"	"mult_deploy_time"
+					"value"				"0.85"
+				}
+				"mod crits doubles damage"
+				{
+					"attribute_class"	"mult_dmg_crit_multiplier"
+					"value"				"1.05"
+				}
+				"clip size penalty"
+				{
+					"attribute_class"	"mult_clipsize"
+					"value"				"0.25"
+				}
+				"bullets per shot penalty"
+				{
+					"attribute_class"	"mult_bullets_per_shot"
+					"value"				"1.5"
+				}			
+			}
+			"visuals"
+			{
+				"sound_single_shot"		"Weapon_JungleShotgun.Single"
+				"sound_burst"			"Weapon_JungleShotgun.SingleCrit"
+			}
+			"mouse_pressed_sound"		"#ui/shotgun_alt_pickup_stock.wav"
+			"drop_sound"				"#ui/shotgun_alt_drop_stock.wav"
+		}
 		"30008"
 		{
 			"name"						"TF_WEAPON_BENIS"
