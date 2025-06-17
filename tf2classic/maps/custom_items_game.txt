@@ -3539,17 +3539,17 @@ Hiding won't save you now!"
 				"clip size penalty"
 				{
 					"attribute_class"	"mult_clipsize"
-					"value"				"0.5"			
+					"value"				"0.75"			
 				}
 				"custom projectile model"
 				{
 					"attribute_class"	"custom_projectile_model"
 					"value"				"models/weapons/w_models/w_rocket_directhit.mdl"
 				}
-				"blast dmg to self increased"
+				"blast dmg to self decreased"
 				{
 					"attribute_class"	"blast_dmg_to_self"
-					"value"				"1.25"
+					"value"				"0.85"
 				}
 			}
 			"visuals"
@@ -3815,17 +3815,17 @@ Hiding won't save you now!"
 				"hide_attrib_additive"
 				{
 					"attribute_class"	"mult_spread_scale"
-					"value"				"0.14"
+					"value"				"0.65"
 				}
 				"bullets per shot bonus"
 				{
 					"attribute_class"	"mult_bullets_per_shot"
-					"value"				"12"
+					"value"				"16"
 				}
 				"apply self knockback hidden"
 				{
 					"attribute_class"	"apply_self_knockback"
-					"value"				"200"
+					"value"				"150"
 				}
 				"weapon enemy knockback mod mult hidden"
 				{
@@ -3850,7 +3850,7 @@ Hiding won't save you now!"
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"				"0.137"
+					"value"				"0.2"
 				}
 			}
 			"visuals"
@@ -4006,15 +4006,15 @@ Hiding won't save you now!"
 			}
 			"attributes"
 			{
-				"dmg taken from burning target reduced on active"
+				"dmg taken from bullets reduced"
 				{
-					"attribute_class"	"mult_dmgtaken_from_burning_target_active"
-					"value"				"0.6"
+					"attribute_class"	"mult_dmgtaken_from_bullets"
+					"value"				"0.5"
 				}
 				"move speed penalty"
 				{
 					"attribute_class"	"mult_player_movespeed"
-					"value"				"0.9"
+					"value"				"0.45"
 				}
 				"crits become minicrits"
 				{
@@ -5579,10 +5579,10 @@ Hiding won't save you now!"
 					"attribute_class"	"mult_dmg"
 					"value"				"0.8"			
 				}
-				"Blast radius decreased"
+				"Blast radius increased"
 				{
 					"attribute_class"	"mult_explosion_radius"
-					"value"				"0.8"			
+					"value"				"1.5"			
 				}
 			}
 			"visuals"
@@ -6197,8 +6197,13 @@ Don't be next on me head-count, lad!"
 				"heal on kill"
 				{
 					"attribute_class"	"heal_on_kill"											// TO-DO: This leaks if getting a delayed kill with another weapon. VERY BAD ON EXPLOSIVE CLASSES
-					"value"				"50"
-				}			
+					"value"				"75"
+				}
+				"add condition on kill"
+				{
+					"attribute_class"	"add_onkill_addcond_self"
+					"value"				"121 3"
+				}
 				"deploy time increased DISPLAY ONLY"
 				{
 					"attribute_class"	"DISPLAY_ONLY"
@@ -7082,6 +7087,16 @@ Don't be next on me head-count, lad!"
 					"attribute_class"	"clipsize_increase_on_kill"
 					"value"				"1"
 				}
+				"fire rate bonus"
+				{
+					"attribute_class"	"display_only" //roughly idk
+					"value"				"0.7"
+				}
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"				"0.7"
+				}
 				"rocket jump damage reduction"
 				{
 					"attribute_class"	"rocket_jump_dmg_reduction"
@@ -7095,7 +7110,7 @@ Don't be next on me head-count, lad!"
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"				"0.7"
+					"value"				"0.85"
 				}
 				"take minicrits from projectile during blast jump"
 				{
@@ -8125,27 +8140,27 @@ Don't be next on me head-count, lad!"
 			    "ubercharge rate bonus"												
 				{
 					"attribute_class"	"mult_medigun_uberchargerate"
-					"value" 			"2.75"
+					"value" 			"3"
 				}
 			    "dmg taken from fire reduced" 											
 				{
 					"attribute_class"	"mult_dmgtaken_from_fire"
-					"value" 			"0.8"
+					"value" 			"0.75"
 				}
 			    "dmg taken from blast reduced"											
 				{
 					"attribute_class"	"mult_dmgtaken_from_explosions"
-					"value" 			"0.8"
+					"value" 			"0.75"
 				}
 			    "dmg taken from bullets reduced"											
 				{
 					"attribute_class"	"mult_dmgtaken_from_bullets"
-					"value" 			"0.8"
+					"value" 			"0.75"
 				}
 			    "uber duration decreased"												
 				{
 					"attribute_class"	"add_uber_time_active"
-					"value" 			"0.4"
+					"value" 			"0.35"
 				}
 				"ubercharge overheal rate penalty"
 				{
@@ -8245,7 +8260,7 @@ Don't be next on me head-count, lad!"
 				"gain stored crits on kill"
 				{
 					"attribute_class"	"gain_stored_crits_on_kill"
-					"value" 			"3"
+					"value" 			"2"
 				}
 				"chekhov punch VISUAL ONLY CRITS CONSUMED BY ALL WEAPONS"
 				{
@@ -9720,7 +9735,7 @@ Alt-Fire: Share a Chocolate Bar with a friend!
 				"rocket gravity"
 				{
 					"attribute_class"	"mod_rocket_gravity"
-					"value"				"0.25"
+					"value"				"0.65"
 				}
 				"Set DamageType Ignite"
 				{
@@ -11584,7 +11599,7 @@ A silver tongue is no match, for one bullet."
 			"prefab"					"weapon_shotgun"
 			"item_class"					"tf_weapon_shotgun_soldier"
 			"item_quality"				"normal"
-			"show_in_armory"			"1"
+			"show_in_armory"			"0"
 			"item_slot"					"secondary"
 			"anim_slot"					"secondary2"
 
@@ -12853,17 +12868,17 @@ Your ankles are gonna thank you for this!"
 				"Blast radius increased"
 				{
 					"attribute_class"	"mult_explosion_radius"
-					"value"				"1.2"
+					"value"				"0.55"
 				}
 				"clip size penalty"
 				{
 					"attribute_class"	"mult_clipsize"
-					"value"				"0.75"
+					"value"				"0.5"
 				}
 				"Projectile speed decreased"
 				{
 					"attribute_class"	"mult_projectile_speed"
-					"value"				"0.8"
+					"value"				"2.15"
 				}
 				"custom projectile model"
 				{
@@ -13081,7 +13096,7 @@ IT'S TIME TO STOP!"
 				"damage bonus"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"				"1.4"
+					"value"				"1.2"
 				}				
 				"fire rate penalty"
 				{
@@ -14867,12 +14882,12 @@ How about another drink this time, eh?"
                 "civ boost cond override"
 				{
 					"attribute_class"	"add_civ_boost_override"
-					"value" 			"121 0.8" 
+					"value" 			"121 1.25" 
 				}
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"				"0.8"
+					"value"				"0.25"
 				}
 				"allowed in medieval mode"
 				{
@@ -15100,7 +15115,7 @@ It does, doesn't it?!'"
 				"move speed bonus"
 				{
 					"attribute_class"	"mult_player_movespeed"
-					"value" 			"1.1"
+					"value" 			"1.15"
 				}
 				"max health additive bonus"
 				{
@@ -15172,12 +15187,12 @@ It does, doesn't it?!'"
 				"heal on hit for rapidfire"
 				{
 					"attribute_class"	"add_onhit_addhealth"
-					"value"				"15"
+					"value"				"10"
 				}
 				"heal on kill"
 				{
 					"attribute_class"	"heal_on_kill"
-					"value"				"50"
+					"value"				"25"
 				}
 				"fire rate bonus"
 				{
@@ -15610,12 +15625,12 @@ I'll make those wounds of yours even worse!"
 				"wearable cond on effect percent"
 				{
 					"attribute_class"	"add_wearable_cond_on_effect_percent"
-					"value"				"112 0.5"
+					"value"				"33 0.5"
 				}
 //				"mult shield bash damage"
 //				{
 //					"attribute_class"	"mult_shield_bash_damage"
-//					"value"				"0.5"
+//					"value"				"0.35"
 //				}
 				"allowed in medieval mode"
 				{
