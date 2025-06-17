@@ -15683,7 +15683,7 @@ You cannot run from Katherine forever!"
 				"aiming movespeed fullspeed"													// Surprisingly works. Increases your move speed while you're revved up
 				{
 					"attribute_class"	"mult_player_aiming_movespeed"
-					"value"				"2.4"
+					"value"				"2.9"
 				}
 //				"minigun jump while revved"														// ...nah. Too much.
 //				{
@@ -15693,7 +15693,7 @@ You cannot run from Katherine forever!"
 //				"move speed bonus"																// This changes too often... I think right now it's 252 hU/s (Faster than Soldier, slower than Demo)
 //				{
 //					"attribute_class"	"mult_player_movespeed"
-//					"value"				"1.25"
+//					"value"				"1.5"
 //				}
 				"minigun spin time decreased"
 				{
@@ -15713,7 +15713,7 @@ You cannot run from Katherine forever!"
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"				"0.8"
+					"value"				"0.35"
 				}
 				// Backend stuff
 				"custom bullet impact collision mode"											// TF2C v2.1.0 - Working hitscan-hull modifiers! This is set to use collision hulls that also pass through teammates.
