@@ -9752,6 +9752,11 @@ Alt-Fire: Share a Chocolate Bar with a friend!
 					"attribute_class"	"set_dmgtype_ignite"
 					"value"				"1"
 				}
+				"weapon burn dmg increased"
+				{
+					"attribute_class"	"mult_wpn_burndmg"
+					"value"				"1.15"
+				}
 				"dmg taken from burning target reduced on active"
 				{
 					"attribute_class"	"mult_dmgtaken_from_burning_target_active"
@@ -9760,7 +9765,7 @@ Alt-Fire: Share a Chocolate Bar with a friend!
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"				"0.75"
+					"value"				"0.85"
 				}
 				"weapon burn time reduced"
 				{
@@ -12873,7 +12878,12 @@ Your ankles are gonna thank you for this!"
 				"dmg bonus vs buildings"
 				{
 					"attribute_class"	"mult_dmg_vs_buildings"
-					"value"				"1.8"
+					"value"				"1.5"
+				}
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"				"1.1"
 				}
 				"no damage falloff over distance"
 				{
@@ -14897,7 +14907,12 @@ How about another drink this time, eh?"
                 "civ boost cond override"
 				{
 					"attribute_class"	"add_civ_boost_override"
-					"value" 			"121 1.25" 
+					"value" 			"121 0.65" 
+				}
+				"civ boost aura override"
+				{
+					"attribute_class"	"add_civ_aura_override"
+					"value"				"32"
 				}
 				"damage penalty"
 				{
