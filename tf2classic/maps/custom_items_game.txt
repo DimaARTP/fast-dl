@@ -2988,7 +2988,7 @@
 			"mouse_pressed_sound"		"#ui/item_pack_pickup.wav"
 			"drop_sound"				"#ui/item_pack_drop.wav"
 		}
-		"5322"
+		"30007"
 		{
 			"name"						"TF_WEAPON_UNFORTUNATE_SON"
 			"prefab"					"weapon_shotgun"								
@@ -30815,6 +30815,4084 @@ by 1.25% per hit, up to a total of %s1% faster"													// The text for this
 			"name"					"comm weapon paint"
 			"description_string"	"Contributed by: Tangerine Paint"
 			"custom_color"			"112 176 74 255"
+		}
+		"16995"
+		{
+			"name"					"no fuse"
+			"description_string"	"Grenades do not detonate in the air"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"16996"
+		{
+			"name"					"sudden death while taunt"
+			"description_string"	"You can die while you are taunting"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"16997"
+		{
+			"name"					"no reload"
+			"description_string"	"Weapon is disposable"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"16998"
+		{
+			"name"					"minicrit vs burning players"
+			"description_string"	"100% Mini-crits vs burning"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"16999"
+		{
+			"name"					"cannot cap"
+			"description_string"	"You can't participate in capturing a point or moving a bomb"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17000"
+		{
+			"name"					"minicrits from behind"
+			"description_string"	"100% Mini-crits from behind"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17001"
+		{
+			"name"					"dmg bonus vs burning"
+			"description_string"	"+%s1% Damage bonus vs burning players"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"17002"
+		{
+			"name"					"powerless medicine"
+			"description_string"	"Can't get health from packs, medic sources and mediguns"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17003"
+		{
+			"name"					"jarate on hit"
+			"description_string"	"Hit to douse enemies in Jarate!
+Coated enemies take mini-crit damage!"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17004"
+		{
+			"name"					"team colored tracers"
+			"description_string"	"Fires tracer rounds"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17005"
+		{
+			"name"					"clip is not fillable"
+			"description_string"	"Unused cartridges are discarded together with the clip"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17006"
+		{
+			"name"					"no reload positive"
+			"description_string"	"Not need to be reloaded"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17007"
+		{
+			"name"					"no scope shots disabled"
+			"description_string"	"Misfire unless zoomed"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17008"
+		{
+			"name"					"misfire no damage"
+			"description_string"	"Misfire does ZERO damage"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17009"
+		{
+			"name"					"cannot deploy sentrygun"
+			"description_string"	"Can't deploy Sentry"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17010"
+		{
+			"name"					"no projectile gravity"
+			"description_string"	"Projectiles not affected by gravity"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17011"
+		{
+			"name"					"projectiles can be deflected"
+			"description_string"	"Projectiles are deflectable"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17012"
+		{
+			"name"					"no melee as melee"
+			"description_string"	"Can't use as melee"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}	
+		"17013"
+		{
+			"name"					"recharge rate decreased"
+			"description_string"	"%s1% increase in recharge rate"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"17014"
+		{
+			"name"					"instant deploy dispenser"
+			"description_string"	"Replaces dispenser with quick-deploy dispenser with reduced efficiency"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17015"
+		{
+			"name"					"unique ammo"
+			"description_string"	"Unique Ammo: You can get ammo only from dispensers"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17016"
+		{
+			"name"					"must spinup"
+			"description_string"	"Must be deployed for shooting"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}		
+		"17017"
+		{
+			"name"					"on hit firerate buff"
+			"description_string"	"On hit: Increased fire rate for a short period of time"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17018"
+		{
+			"name"					"vermin unique attribute"
+			"description_string"	"Crits on multiple hits in a row"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17019"
+		{
+			"name"					"critboost on hit"
+			"description_string"	"On hit: next shot will be crit charged"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17020"
+		{
+			"name"					"mod crits falloff"
+			"description_string"	"Crit damage are affected by falloff"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17021"
+		{
+			"name"					"unique pressure description"
+			"description_string"	"Pulling the trigger will cause the magazine to empty completely"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17022"
+		{
+			"name"					"construction on hit"
+			"description_string"	"On hit: Upgrades/repairs all buildings by the amount of damage dealt"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17023"
+		{
+			"name"					"no pda available"
+			"description_string"	"Cannot use building PDA"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17024"
+		{
+			"name"					"energy weapon minicrits"
+			"description_string"	"Energy Weapon: 100% mini-crits to medics and spies"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17025"
+		{
+			"name"					"deathray unique positive"
+			"attribute_class"		"minicrit_vs_class"
+			"description_string"	"100% Mini-crits to Medics"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17026"
+		{
+			"name"					"deathray unique negative"
+			"attribute_class"		"mod_rocket_gravity"
+			"description_string"	"Projectiles flies up"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17027"
+		{
+			"name"					"minicrits in a row"
+			"description_string"	"Mini-crits on hits in a row!"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}	
+		"17028"
+		{
+			"name"					"mod overheating penalty"
+			"description_string"	"Long firing causes overheating and weapon must cool down"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17029"
+		{
+			"name"					"mod no uber"
+			"description_string"	"No ubercharge"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17030"
+		{
+			"name"					"mult holster time"
+			"description_string"	"+%s1% weapon holstering time"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"17031"
+		{
+			"name"					"mod full-throttle unique attr 1"
+			"description_string"	"On hit: Move speed bonus for short time"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17032"
+		{
+			"name"					"mod full-throttle unique attr 2"
+			"description_string"	"On kill: Move speed bonus for %s1 seconds"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17033"
+		{
+			"name"					"no charge"
+			"description_string"	"Cannot recharge"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"17034"
+		{
+			"name"					"mini-crits on kill"
+			"description_string"	"On Kill: 100% mini-crits for %s1 seconds"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17035"
+		{
+			"name"					"weak bullets negative"
+			"description_string"	"Bullets are so weak that they don't make sense at long range"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17036"
+		{
+			"name"					"mod no primary fire flamethrower display"
+			"description_string"	"Only airblast is available"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17037"
+		{
+			"name"					"mod deflected projectiles ignite display"
+			"description_string"	"Deflected projectiles can ignite enemies"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17038"
+		{
+			"name"					"mod deflect no minicrit display"
+			"description_string"	"Deflected projectiles cannot mini-crit"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17039"
+		{
+			"name"					"slowing on hit"
+			"description_string"	"On hit: Slows players for %s1s"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17040"
+		{
+			"name"					"rampup bonus"
+			"description_string"	"+%s1% damage at close range"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"17041"
+		{
+			"name"					"explosive pellet"
+			"description_string"	"One of the pellets is explosive"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17042"
+		{
+			"name"					"overheal fill rate bonus"
+			"description_string"	"+%s1% overheal fill rate"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"17043"
+		{
+			"name"					"haste boost on drink"
+			"description_string"	"On drink: gives haste boost for %s1 seconds"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17044"
+		{
+			"name"					"rampup penalty"
+			"description_string"	"%s1% damage at close range"
+			"description_format"	"value_is_inverted_percentage"
+			"effect_type"			"negative"
+		}
+		"17045"
+		{
+			"name"					"lunchbox minicrits"
+			"description_string"	"On eat: grants mini-crits for %s1 seconds"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17046"
+		{
+			"name"					"explode weapon is deadly"
+			"description_string"	"On Overcharging: instantly kills wearer"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17047"
+		{
+			"name"					"medigun not heals"
+			"description_string"	"Cannot heal allies"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17048"
+		{
+			"name"					"ignite rockets"
+			"description_string"	"Shoots incendiary rockets"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17049"
+		{
+			"name"					"welrod unique 1 positive"
+			"description_string"	"Shoots bullets instead tranq-darts"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17050"
+		{
+			"name"					"welrod unique 2 positive"
+			"description_string"	"100% mini-crits tranquilized players"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17051"
+		{
+			"name"					"welrod unique 1 negative"
+			"description_string"	"Cannot tranq players"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17052"
+		{
+			"name"					"self det stickies"
+			"description_string"	"Fired stickybombs self detonates in short time"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17053"
+		{
+			"name"					"mod projectiles can impact grenades"
+			"description_string"	"Projectiles can deal impact damage"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17054"
+		{
+			"name"					"health drain medic"
+			"description_string"	"%s1 health regenerated per second on wearer"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17055"
+		{
+			"name"					"move speed bonus on active"
+			"description_string"	"+%s1% Move speed on active"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"17056"
+		{
+			"name"					"mult damage bonus vs burning"
+			"attribute_class"		"mult_dmg_vs_burning"
+			"description_string"	"+%s1% damage to burning players"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"17057"
+		{
+			"name"					"dropped weapons instantly fills reserve"
+			"description_string"	"Dropped weapons instantly fills reserve"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"17058"
+		{
+			"name"					"no primary ammo from dispensers always text"
+			"description_string"	"No ammo from dispensers"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17059"
+		{
+			"name"					"always spool up"
+			"description_string"	"Always deployed (slower moving speed and not able to jump)"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"17060"
+		{
+			"name"					"mod can scope"
+			"description_string"	"Able to scope and charge"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17061"
+		{
+			"name"					"mod can't cloak"
+			"description_string"	"Can't toggle watches while active"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17062"
+		{
+			"name"					"mod flares cant flame"
+			"description_string"	"Cannot flame players"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17063"
+		{
+			"name"					"display only base damage sniper"
+			"description_string"	"%s1% damage penalty from hip-fire"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"17064"
+		{
+			"name"					"cloak cant regen"
+			"description_string"	"Not able to recharge by time"
+			"attribute_class"		"mult_cloak_meter_regen_rate"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"17065"
+		{
+			"name"					"loud uncloak"
+			"description_string"	"Uncloaking is loud"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17066"
+		{
+			"name"					"dispenser minigun unique 3"
+			"description_string"	"Bullets can hit enemies"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17067"
+		{
+			"name"					"dispenser minigun unique 4"
+			"description_string"	"Can't move while deployed"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17068"
+		{
+			"name"					"dispenser minigun unique 5"
+			"description_string"	"Generates ammo only while not active"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17069"
+		{
+			"name"					"dispenser minigun unique 6"
+			"description_string"	"%s1% damage resistance from all sources while deployed"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"17071"
+		{
+			"name"					"bounce grenade launcher unique negative 1"
+			"description_string"	"%s1% damage penalty on direct hit"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"17072"
+		{
+			"name"					"bounce grenade launcher unique attribute"
+			"description_string"	"Grenades is very bouncy"
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"17073"
+		{
+			"name"					"grenade detonation damage bonus"
+			"description_string"	"+%s1% damage on grenades that explode on timer"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"17074"
+		{
+			"name"					"mult damage penalty vs burning"
+			"description_string"	"%s1% damage to burning players"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"17075"
+		{
+			"name"					"mod full reload on kill"
+			"description_string"	"On Kill: Clip fully reloaded"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17076"
+		{
+			"name"					"shorter damage falloff distance show"
+			"attribute_class"		"mult_falloff_distance"
+			"description_string"	"%s1% shorter damage falloff distance"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"17077"
+		{
+			"name"					"weaker medicine"
+			"description_string"	"%s1% health from packs, medic sources and mediguns"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"17078"
+		{
+			"name"					"mod maxlevel killed revenge minicrits"
+			"description_string"	"When a Lvl. 3 Building of yours is destroyed
+by an enemy, gain %s1s of Revenge Mini-Crits!"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17079"
+		{
+			"name"					"construction on hit on active"
+			"description_string"	"On active: all damage upgrades/repairs all buildings by the amount of damage dealt"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17080"
+		{
+			"name"					"must hit building for building sentry"
+			"description_string"	"Sentry gun not builds automaticly"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"17081"
+		{
+			"name"					"mod crits doubles damage"
+			"attribute_class"		"mult_dmg_crit_multiplier"
+			"description_string"	"Crits doubles the damage instead of tripling"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"17082"
+		{
+			"name"					"inflict afterbleeding grenade launcher"
+			"attribute_class"		"bleeding_duration"
+			"description_string"	"Grenades loaded with acid
+Coated enemies take bleed dmg + afterburn"
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"17083"
+		{
+			"name"					"mod infinite afterburn"
+			"description_string"	"Afterburn is infinite, but little per tick damage"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"neutral"
+		}
+		"17084"
+		{
+			"name"					"minicrit vs healbeam players"
+			"attribute_class"		"single_minicrit_vs_playercond_no_dot"
+			"description_string"	"100% mini-crits vs players being healed
+by Medigun or Dispenser beams"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17085"
+		{
+			"name"					"mult airblast refire time penalty"
+			"attribute_class"		"mult_airblast_refire_time"
+			"description_string"	"+%s1% airblast refire time penalty"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"17086"
+		{
+			"name"					"no shield bash"
+			"description_string"	"No bash damage/knockback"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"17087"
+		{
+			"name"					"portable_fort unique bonus"
+			"description_string"	"Very strong overheal fill"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17088"
+		{
+			"name"					"mine shield unique attrib penalty"
+			"description_string"	"Not detonates from afterburn, bleeding and melee death"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17089"
+		{
+			"name"					"overrides melee slot"
+			"description_string"	"Overrides melee slot"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17090"
+		{
+			"name"					"mod minicrits to disguised"
+			"description_string"	"100% mini-crits vs disguised players"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"17091"
+		{
+			"name"					"longer damage falloff distance show"
+			"attribute_class"		"mult_falloff_distance"
+			"description_string"	"%s1% longer damage falloff distance"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"17092"
+		{
+			"name"					"bounce grenade launcher unique bonus"
+			"description_string"	"Grenades ignores blast damage penalties/bonuses"
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"17093"
+		{
+			"name"					"mod aim no speed penalty"
+			"description_string"	"No speed move penalty while aiming"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"17094"
+		{
+			"name"					"mod on fire past stickybomb auto-det"
+			"description_string"	"On Primary Fire: past stickybomb will be automatically detonated"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17095"
+		{
+			"name"					"mod swing applies effect hit"
+			"description_string"	"On Swing: applies negative 'on hit' effect to wearer"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17096"
+		{
+			"name"					"must reload pressure"
+			"description_string"	"Pressure is limited and must be refilled"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"17097"
+		{
+			"name"					"decreased crits damage"
+			"description_string"	"Crit damage is decreased (read the description)"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+
+		// Community Contributors: Credit Attribs 
+		"21000"
+		{
+			"name"					"comm weapon yaki"
+			"description_string"	"Contributed by: Yakibomb"
+			"custom_color"			"112 176 74 255"
+		}
+		"21001"
+		{
+			"name"					"comm weapon kris"
+			"description_string"	"Contributed by: Private Polygon"
+			"custom_color"			"112 176 74 255"
+		}
+		"21002"
+		{
+			"name"					"comm weapon azzy basil"
+			"description_string"	"Contributed by: azzy, OCsonic"
+			"custom_color"			"112 176 74 255"
+		}
+		"21003"
+		{
+			"name"					"comm weapon colrot"
+			"description_string"	"Contributed by: Colrot"
+			"custom_color"			"112 176 74 255"
+		}
+// Knockout Custom Attributes
+		"7499"
+		{
+			"name"	 "dmg resistance"
+			"attribute_class"	"mult_dmgtaken"
+			"description_string"	"%s1% less damage taken on wearer"
+			"description_format"	"value_is_percentage"
+			"effect_type"	"positive"
+		}
+		"7500"
+		{
+			"name"	"damage force reduction HIDDEN"
+			"attribute_class"	"damage_force_reduction"
+			"description_string"	"#Attrib_DamageForceReduction"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"7501"
+		{
+			"name"	"airblast vulnerability multiplier HIDDEN"
+			"attribute_class"	"airblast_vulnerability_multiplier"
+			"description_string"	"#Attrib_AirBlastVulnerabilityMultipier"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"7502"
+		{
+			"name"	"dmg taken from crit reduced HIDDEN"
+			"attribute_class"	"mult_dmgtaken_from_crit"
+			"description_string"	"#Attrib_DmgTaken_From_Crit_Reduced"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"armory_Desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		"7503"
+		{
+			"name"	"dmg taken from crit increased HIDDEN"
+			"attribute_class"	"mult_dmgtaken_from_crit"
+			"description_string"	"#Attrib_DmgTaken_From_Crit_Increased"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"armory_Desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		"7504"
+		{
+			"name"	"boots falling stomp HIDDEN"
+			"attribute_class"	"boots_falling_stomp"
+			"description_string"	"#Attrib_BootsFallingStomp"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
+// 2.1 Attributes! 
+        "7505"
+		{
+			"name"					"Demoknight Melee Positive"
+			"description_string"	"Timed melee hits deflect projectiles"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7506"
+		{
+			"name"					"Demoknight Melee Negative"
+			"description_string"	"This melee weapon draws and holsters slower"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7507"
+		{
+			"name"					"Hammers Fist Knockback"
+			"description_string"	"Punches inflict massive knockback to enemies"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7508"
+		{
+			"name"					"Increased Random Crit Chance"
+			"description_string"	"%s1% increased random crit chance"													
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"7509"
+		{
+			"name"					"Dmg V Burning Display Bonus"
+			"description_string"	"+%s1% damage bonus to burning players"													
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"7510"
+		{
+			"name"					"Engineering Mastery"
+			"description_string"	"Combat Engineering: Dealing damage with any weapon upgrades and repairs your buildings"													
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"positive"
+		}
+		"7511"
+		{
+			"name"					"Dmg V Burning Display Penalty"
+			"description_string"	"%s1% damage penalty to burning players"													
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"7512"
+		{
+			"name"					"Hold fire for more damage"
+			"description_string"	"Holding the fire button increases damage"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7513"
+		{
+			"name"					"Backpack Positive"
+			"description_string"	"Press the fire button to create a medium ammo pack!"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"positive"
+		}
+		"7514"
+		{
+			"name"					"Backpack Negative"
+			"description_string"	"Enemies can pick up ammo packs you create"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7515"
+		{
+			"name"					"Grenade Cook Display"
+			"description_string"	"Holding the fire button reduces fuse time"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"7516"
+		{
+			"name"					"BURGIR Cond on Eat"
+			"description_string"	"On Eat: Gain damage resistance and health regeneration for 10 seconds"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7517"
+		{
+			"name"					"BOOHGUR Smol Healthpack"
+			"description_string"	"Dropped Bergurs give reduced health"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7518"
+		{
+			"name"					"Coffee Cond on Eat"
+			"description_string"	"On Drink: Gain Haste for 8 seconds"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7519"
+		{
+			"name"					"Coffee Penalty"
+			"description_string"	"Dropped Coffee give reduced health"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7520"
+		{
+			"name"					"Building Break Buff"
+			"description_string"	"On level 3 building killed by enemy: gain haste for %s1 seconds"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7521"
+		{
+			"name"					"Bottle Healthpack"
+			"description_string"	"Dropped Bottles give reduced health"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7522"
+		{
+			"name"					"Headshot Basic"
+			"description_string"	"Can headshot for mini-crit damage"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7523"
+		{
+			"name"					"grenade impact splash display only"
+			"description_string"	"Grenades that explode on non-player surfaces deal 50% reduced damage"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7524"
+		{
+			"name"					"Wearable Primary Replacer"
+			"description_string"	"This item replaces your primary weapon"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7525"
+		{
+			"name"					"Wearable Secondary Replacer"
+			"description_string"	"This item replaces your secondary weapon"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7526"
+		{
+			"name"					"Sapper Lifetime"
+			"description_string"	"Sapper automatically breaks after %s1 seconds"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7527"
+		{
+			"name"					"No DMG Fall-off"
+			"description_string"	"Rockets have no damage fall-off for direct hits and explosions"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7528"
+		{
+			"name"					"fire rate penalty with reduced health"
+			"description_string"	"Fire rate decreases as health decreases"													
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"7529"
+		{
+			"name"					"Caber Toss Positive"
+			"description_string"	"Hold the fire button to reduce the fuse time before throwing"																									
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7530"
+		{
+			"name"					"Mark for Death on hit rewritten"
+			"description_string"	"On Hit: %s1 seconds of Mark for Death on enemy"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7531"
+		{
+			"name"					"Targets Outlined on Hit"
+			"description_string"	"On Hit: Highlight enemy for %s1 seconds"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7532"
+		{
+			"name"					"grenades explode on impact"
+			"description_string"	"Grenades explode on impact"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7533"
+		{
+			"name"					"Bazooka Payload"
+			"description_string"	"On Kill: Gain damage resistance and health regeneration for %s1 seconds"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7534"
+		{
+			"name"					"Rainmaker Payload"
+			"description_string"	"Rockets have reduced damage fall-off"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7535"
+		{
+			"name"					"Mini-Crit Headshots"
+			"description_string"	"Aim for the head to deal mini-crit damage"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7536"
+		{
+			"name"					"Hunter Killer Special"
+			"description_string"	"Damage increases over range"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7537"
+		{
+			"name"					"Crucible Explodes on Hit"
+			"description_string"	"Crucible Sword hits cause explosions"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7538"
+		{
+			"name"					"Crucible Requires Ammo"
+			"description_string"	"Crucible Sword requires ammo"	
+            "attribute_type"		"string"				
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		
+// Medic Battery Pack & Luna Boots
+
+		
+		"7541"
+		{
+			"name"	"decreased jump height"
+			"attribute_class"	"mod_jump_height"
+			"description_string"	"%s1% lesser jump height when active"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+
+// Capture rate attributes!
+		
+		"7542"
+		{
+			"name"	"player capture value hidden"
+			"attribute_class"	"add_player_capturevalue"
+			"description_string"	"#Attrib_CaptureValue_Increased"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"armory_Desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		
+		"7543"
+		{
+			"name"	"decrease player capture value"
+			"attribute_class"	"add_player_capturevalue"
+			"description_string"	"%s1 capture rate on player"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"armory_Desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+        "7544"
+		{
+			"name"					"engy dispenser healing bonus"
+			"description_string"	"+%s1% dispenser healing rate"													
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}         
+		"7545"
+		{
+			"name"					"Mini-critboost on hit"
+			"description_string"	"On Hit: %s1 seconds of mini-crits"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7546"
+		{
+			"name"					"Healing allies builds Ubercharge"
+			"description_string"	"Healing teammates with this weapon builds Übercharge"				
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7547"
+		{
+			"name"					"Flakker Strike"
+			"description_string"	"Disorients enemy airborne movement on hit"	
+            "attribute_type"		"string"				
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+// Why the sudden skip??? breadloaf LMAOOO
+		
+		"7550"
+		{
+			"name"					"Curse of the Broken Mann"
+			"description_string"	"Curse of the Broken Mann:
+This weapon has a %s1% higher random critical hit chance."
+            "custom_color"			"175 24 227 255"													
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"7551"
+		{
+			"name"					"Cloak on Kill"
+			"description_string"	"Automatically cloak on kill"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7552"
+		{
+			"name"					"Curse of the Shattered Empress"
+			"description_string"	"Curse of the Shattered Empress: You take 33% more damage from all sources."
+            "custom_color"			"175 24 227 255"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7553"
+		{
+			"name"					"Curse of the Dark Tale"
+			"description_string"	"Curse of the Dark Tale: 
+On hitting an enemy, you are forced to use this weapon for 17 seconds."
+            "custom_color"			"175 24 227 255"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7554"
+		{
+			"name"					"Curse of the Dark Tale Extra"
+			"description_string"	"On kill, become invisible for 5 seconds, you cannot attack while invisible.
+Sword pierces resistances."
+            "custom_color"			"175 24 227 255"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7555"
+		{
+			"name"					"Curse of the Noise-maker"
+			"description_string"	"Curse of the Noise-maker: This item plays music while holding the secondary fire button!"
+            "custom_color"			"175 24 227 255"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7556"
+		{
+			"name"					"Curse of Veles"
+			"description_string"	"Curse of Veles: Your health decays constantly and medics cannot heal you."
+            "custom_color"			"175 24 227 255"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7557"
+		{
+			"name"					"Bazooka Barrage"
+			"description_string"	"Bazooka fires a 3 rocket barrage"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7558"
+		{
+			"name"					"Iron Will Positive"
+			"description_string"	"Morality Boost: Alt-Fire (Mouse2) Grant an ally damage resistance and health regen for 8 seconds!  (16 sec cooldown)"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7559"
+		{
+			"name"					"Dragon's Breath"
+			"description_string"	"This weapon fires low-damage, wide-spread Dragon's Breath that ignites enemies on hit"												
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7560"
+		{
+			"name"					"Flame Range Increased"
+			"description_string"	"%s1% increased flame range"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"7561"
+		{
+			"name"					"Burst-Fire"
+			"description_string"	"This weapon fires in %s1 round bursts"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"7562"
+		{
+			"name"					"Airblast Destruction"
+			"description_string"	"Compression blast destroys projectiles"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"7563"
+		{
+			"name"					"Silent Killer No Rev"
+			"description_string"	"Silent Killer: No barrel spin sound"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+        "7564"
+		{
+			"name"					"Single wep deploy time increased fix"
+			"description_string"	"This weapon deploys %s1% slower"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}	
+        "7565"
+		{
+			"name"					"Gunshow Special"
+			"description_string"	"Punches fire explosive slugs"												
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"positive"
+		}
+        "7566"
+		{
+			"name"					"Gunshow Requires Ammo"
+			"description_string"	"Requires ammo to function"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}	
+        "7567"
+		{
+			"name"					"Hammer Sweep Bonus"	
+			"description_string"	"This melee weapon can hit in a wide radius"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}		
+		"7568"
+		{
+			"name"					"Haste Boost on Hit"		
+			"description_string"	"On Hit: Move and attack faster for %s1 seconds"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}	
+		"7569"
+		{
+			"name"					"MFD on swing"	
+			"description_string"	"On Swing: Become marked for death for %s1 seconds"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}	
+		"7570"
+		{
+			"name"					"LongKnife melee lock on hit"	
+			"description_string"	"On Hit: Locked to melee for %s1 seconds"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+        "7571"
+		{
+			"name"					"Mark self on kill"	
+			"description_string"	"On Kill: Mark yourself for death for %s1 seconds"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}	
+        "7572"
+		{
+			"name"					"True Sniper Scope"
+			"description_string"	"Scope has increased zoom level and scoped shots increase damage over time"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+        "7573"
+		{
+			"name"					"Longer recharge time"
+			"description_string"	"%s1% longer recharge time"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}	
+		"7574"
+		{
+			"name"					"Render on hit"
+			"description_string"	"On Hit: Prevent enemies from attacking for a split second"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}	
+		"7575"
+		{
+			"name"					"Shield Positive"
+			"description_string"	"Absorbs all incoming damage from the front"	
+            "custom_color"			"225 215 0 255"				
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}	
+		"7576"
+		{
+			"name"					"Shield Bonuses"
+			"description_string"	"Bash and charge damage with this weapon inflicts knockback on enemies"			
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}	
+		"7577"
+		{
+			"name"					"Shield Negative"
+			"description_string"	"Shield can break if too much damage is taken"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}	
+        "7578"
+		{
+			"name"					"Sentry Backpack Display Only"
+			"description_string"	"Activate a manually-controlled gun turret on your back"												
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"positive"
+		} 	
+        "7579"
+		{
+			"name"					"no primary ammo from dispensers fixed"	
+			"description_string"	"No primary ammo from dispensers"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}		
+        "7580"
+		{
+			"name"					"DrunkWrath DISPLAY ONLY 1"
+			"description_string"	"Dealing damage charges Fan-Fire meter"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"neutral"
+		}
+		"7581"
+		{
+			"name"					"DrunkWrath DISPLAY ONLY 2"	
+			"description_string"	"Press the Use key (F) when fully charged to deploy Fan-Fire
+Fan-Fire: Hold fire button for maximum destruction!"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}	
+		"7582"
+		{
+			"name"					"Welrod Special"
+			"description_string"	"Massive increase in close range damage"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7583"
+		{
+			"name"					"Crits have fall-off"
+			"description_string"	"Critical hits are affected by damage fall-off"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7584"
+		{
+			"name"					"Airblast no mini-crit"
+			"description_string"	"Deflected projectiles don't mini-crit"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7585"
+		{
+			"name"					"Cannot move while aimed"
+			"description_string"	"Cannot move while deployed"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7586"
+		{
+			"name"					"Talibong Special"
+			"description_string"	"Tactical Approach: Alt-fire (Mouse2): Grant an ally 50% increased healing from healers (16 sec cooldown)"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7587"
+		{
+			"name"					"Shank Special"
+			"description_string"	"Execution Warrant: Alt-fire (Mouse2): Highlight an enemy for your team to see! (16 sec cooldown)"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7588"
+		{
+			"name"					"Sphere Damage"
+			"description_string"	"Primary Fire: Hold the fire button to create a damaging electric field"												
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"negative"
+		}
+		"7589"
+		{
+			"name"					"Sphere Mechanic"
+			"description_string"	"Alt-fire (Mouse2): Deploys energy shield that blocks bullets and projectiles"												
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"positive"
+		}
+		"7590"
+		{
+			"name"					"Limited Range Dummy"
+			"description_string"	"Weapon has limited range"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7591"
+		{
+			"name"					"Sphere Charge Passive"
+			"description_string"	"Dealing damage builds up shield energy"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"7592"
+		{
+			"name"					"fuse penalty"
+			"description_string"	"%s1% longer fuse time"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"7593"
+		{
+			"name"					"Haste killer"
+			"description_string"	"On Kill: Gain Haste for %s1 seconds"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7594"
+		{
+			"name"					"Lose health on kill"
+			"description_string"	"On Kill: Lose %s1 health"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7595"
+		{
+			"name"					"Cloak time decreased"	
+			"description_string"	"%s1% faster cloak rate"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+	    "7596"
+		{
+			"name"					"Afterburn no auto-extinguish"
+			"description_string"	"Afterburn has no automatic extinguish"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7597"
+		{
+			"name"					"Mark self for death on hit"
+			"description_string"	"On Hit: Mark yourself for death for %s1 seconds"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7598"
+		{
+			"name"					"single wep holster time increased text fix"
+			"description_string"	"%s1% slower holster time"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"7599"
+		{
+			"name"					"Scythe Crit hit"
+			"description_string"	"On Hit: Gain a crit boost for %s1 seconds"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7600"
+		{
+			"name"					"Move Speed Penalty Active"
+			"description_string"	"%s1% slower move speed while active"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"7601"
+		{
+			"name"					"Flame Range Reduced"
+			"description_string"	"%s1% reduced flame range"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"7602"
+		{
+			"name"					"Move Speed Bonus Active"
+			"description_string"	"+%s1% faster move speed while active"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"7603"
+		{
+			"name"					"Resistance bypass"
+			"description_string"	"This weapon ignores damage resistances and vulnerabilities"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"7604"
+		{
+			"name"					"Medi-gun range decreased"	
+			"description_string"	"%s1% medi gun beam range"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"7605"
+		{
+			"name"					"Strike Shank Special"	
+			"description_string"	"Military Discipline: Alt-fire (Mouse2): Grant an ally faster move speed for 5 seconds! (16 sec cooldown)"												
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"positive"
+		}
+		"7606"
+		{
+			"name"					"Slasher Special"
+			"description_string"	"Sharpened Edge: Alt-fire (Mouse2): Grant an ally increased damage for 5 seconds! (16 sec cooldown)"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7607"
+		{
+			"name"					"Kukri Special"
+			"description_string"	"Alt-Fire (Mouse 2): Grant an ally damage resistance and health regen for 10 seconds! (16 sec cooldown)"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7608"
+		{
+			"name"					"aiming movespeed removal"	
+			"description_string"	"No movement speed reduction while deployed"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7609"
+		{
+			"name"	"mod mini-crit airborne on direct DISPLAY ONLY KOCW VER"
+			"attribute_class"	"DISPLAY_ONLY"
+			"description_string"	"Mini-crits enemies launched by explosives or jump pads on direct hits"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"7610"
+		{
+			"name"	"Oppressive Force"	
+			"attribute_class"	"DISPLAY_ONLY"
+			"description_string"	"On Hit: Slow enemy movement speed by 25%"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"7611"
+		{
+			"name"	"Devotion Special"	
+			"attribute_class"	"DISPLAY_ONLY"
+			"description_string"	"On Kill: -25% movement speed penalty to self for %s1 seconds"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"7612"
+		{
+			"name"					"Enforcer Special"
+			"description_string"	"On Kill: %s1 seconds of damage resistance and health regeneration"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7613"
+		{
+			"name"				    "Danger Close n' Far"
+			"description_string"	"+%s1% increased close range and long-range damage"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+
+		}
+		"7614"
+		{
+			"name"					"Criticals Decapitate Players"
+			"description_string"	"Critical hits decapitate players"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7615"
+		{
+			"name"					"ubercharge overheal rate bonus"
+			"description_string"	"+%s1% Übercharge rate on Overhealed patients"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"7616"
+		{
+			"name"					"Medi-gun range increased"	
+			"description_string"	"+%s1% medi gun beam range"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+	    "7617"
+		{
+			"name"					"MEAT Cond on Eat" 
+			"description_string"	"On Eat: Move faster for 10 seconds"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7618"
+		{
+			"name"					"MEAT Cooldown Timer" 
+			"description_string"	"Lunchbox requires recharge after consumption"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7619"
+		{
+			"name"					"Melee Lunge Forward"	
+			"description_string"	"Melee swings have lunge"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7620"
+		{
+			"name"					"Mini-Crit Burning"
+			"description_string"	"100% mini-crit vs burning players"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7621"
+		{
+			"name"					"Bone Buster Positive"
+			"description_string"	"Attacks always crit and deal burn damage"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7622"
+		{
+			"name"					"Bone Buster Negative"
+			"description_string"	"Attacks have wind-up delay before striking"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7623"
+		{
+			"name"					"Melee Strength Mechanic"
+			"description_string"	"Melee has a charge meter that deals massive damage at full charge"												
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7624"
+		{
+			"name"					"Lose Health on Hit"
+			"description_string"	"On Hit: Lose %s1 health"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7625"
+		{
+			"name"					"Airblast Size Multiplier"
+			"description_string"	"+%s1% Airblast size"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"7627"
+		{
+			"name"					"Hammer Crowd Control"
+			"description_string"	"Hammer swings can hit multiple enemies in a wide area"												
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"positive"
+		}
+		"7628"
+		{
+			"name"					"No Tranq Crits"
+			"description_string"	"Cannot deal critical damage to Tranquilized enemies"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7629"
+		{
+			"name"					"Minicrit vs Outline"
+			"description_string"	"100% mini-crits vs highlighted enemies"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7630"
+		{
+			"name"					"No Fatal Backstab"
+			"description_string"	"Backstabs do not kill enemies instantly"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7631"
+		{
+			"name"					"Increased airblast delay"
+			"description_string"	"%s1% longer airblast delay"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"7632"
+		{
+			"name"					"primary ammo from ammo packs bonus rewritten"
+			"description_string"	"+%s1% primary ammo from ammo packs"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"7633"
+		{
+			"name"					"primary ammo from dropped weapons bonus rewritten"
+			"description_string"	"+%s1% primary ammo from dropped weapons"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"7634"
+		{
+			"name"					"secondary ammo from ammo packs penalty rewritten"
+			"description_string"	"%s1% secondary ammo from ammo packs"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"7635"
+		{
+			"name"					"secondary ammo from dropped weapons penalty rewritten"
+			"description_string"	"%s1% secondary ammo from dropped weapons"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"7636"
+		{
+			"name"					"Charge on Kill"
+			"description_string"	"On Kill: Charge automatically"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7637"
+		{
+			"name"					"DMG Vulnerability while Active"	
+			"description_string"	"%s1% damage vulnerability while active"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"7638"
+		{
+			"name"					"Chaingun Special"
+			"description_string"	"Has full mobility when spun-up or firing"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7639"
+		{
+			"name"					"Airblast Deflection is Destroy"
+			"description_string"	"Airblast destroys projectiles"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"7640"
+		{
+			"name"					"Extra Volume Shot Package"
+			"description_string"	"Fires extra pellets with reduced pellet damage."												
+			"effect_type"			"neutral"
+		}
+		"7641"
+		{
+			"name"					"Instant Death Overcharge"
+			"description_string"	"Overcharging kills you instantly"												
+			"effect_type"			"negative"
+		}
+		"7642"
+		{
+			"name"					"Tranq Mini-Crit"
+			"description_string"	"Deals mini-crit damage to tranquilized enemies instead of crits"		
+			"effect_type"			"negative"
+		}
+		"7643"
+		{
+			"name"					"Decreased Healing Effectiveness"
+			"description_string"	"%s1% reduced healing and overheal from medics on wearer"	
+            "description_format"    "value_is_percentage"			
+			"effect_type"			"negative"
+		}
+		"7644"
+		{
+			"name"					"Destabilized Gravity Field"	
+			"description_string"	"Destabilized Gravity Field: Huge mobility, jump height and swing speed reduction while active"												
+			"effect_type"			"negative"
+		}
+		"7645"
+		{
+			"name"					"Minicrit vs Tranq"	
+			"description_string"	"100% mini-crits vs tranquilized enemies"												
+			"effect_type"			"positive"
+		}
+		"7646"
+		{
+			"name"					"Mark self on hit"	
+			"description_string"	"On Hit: Mark yourself for death for %s1 seconds"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}	
+		"7647"
+		{
+			"name"					"Afterburner Jet Thrust"
+			"description_string"	"Air Superiority: Airblasting will launch you into the air!"
+            "custom_color"			"225 215 0 255"					
+			"effect_type"			"neutral"
+		}
+		"7648"
+		{
+			"name"					"RSH Bolt Revolver"
+			"description_string"	"Fires bolt shells that deal increased damage over medium range with long-range falloff"	
+            "custom_color"			"225 215 0 255"				
+			"effect_type"			"neutral"
+		}
+		"7649"
+		{
+			"name"					"Invis on Kill"
+			"description_string"	"On Kill: Become invisible and unable to attack for %s1 seconds"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"7650"
+		{
+			"name"					"dispenser rate penalty"
+			"description_string"	"%s1% less ammo and metal generated by dispensers"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"7651"
+		{
+			"name"					"dispenser rate bonus"
+			"description_string"	"+%s1% more ammo and metal generated by dispensers"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"7652"
+		{
+			"name"					"Increased knockback"
+			"description_string"	"Increased enemy knockback on hit"												
+			"effect_type"			"neutral"
+		}
+		"7653"
+		{
+			"name"					"Airborne crit projectile receive"
+			"description_string"	"Incoming projectile damage will deal crits while airborne"												
+			"effect_type"			"negative"
+		}
+		"7654"
+		{
+			"name"					"PASTE Cond on Eat" 
+			"description_string"	"Gain overheal on consumption when at max health"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7655"
+		{
+			"name"					"PASTE Smol Healthpack"
+			"description_string"	"Dropped Lunchbox give reduced health"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7656"
+		{
+			"name"					"ZIP Crit Bonus" 
+			"description_string"	"+%s1% Critical hit damage bonus"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"7657"
+		{
+			"name"					"ZIP Death on Crit Kill" 
+			"description_string"	"On Crit Kill: You die"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7658"
+		{
+			"name"					"No cloak ability"	
+			"description_string"	"No cloaking ability"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7659"
+		{
+			"name"					"No cloak ability until activated"	
+			"description_string"	"Cannot cloak unless gadget is activated"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7660"
+		{
+			"name"					"Instant disguise bonus"	
+			"description_string"	"Disguises are applied immediately"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7661"
+		{
+			"name"					"Solar Pistol Special"	
+			"description_string"	"Shot impacts can ignite nearby enemies"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7662"
+		{
+			"name"					"Alcoholic DISPLAY ONLY 1"
+			"description_string"	"Dealing damage charges up energy"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"neutral"
+		}
+		"7663"
+		{
+			"name"					"Alcoholic DISPLAY ONLY 2"	
+			"description_string"	"Press the Use key (F) when fully charged to activate Reserve Energy
+Reserve Energy: 3 seconds of auto-reload"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7664"
+		{
+			"name"					"Alcoholic DISPLAY ONLY 3"
+			"description_string"	"-10% slower fire rate when using Reserve Energy"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"negative"
+		}
+		"7665"
+		{
+			"name"					"Torcher Special"
+			"description_string"	"Damage increases over range"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"positive"
+		}
+		"7666"
+		{
+			"name"					"Shooting Star Penalty"	
+			"description_string"	"Increased fire rate while scoped"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"positive"
+		}
+		"7667"
+		{
+			"name"					"sentry hit chance when shield charging text"
+			"description_string"	"%s1% chance to dodge sentry gun bullets while charging"
+			"description_format"	"value_is_percentage"
+			"hidden"				"0"
+			"effect_type"			"positive"
+		}
+		"7668"
+		{
+			"name"					"primary ammo from all sources penalty"
+			"description_string"	"%s1% less primary ammo from all sources"
+			"description_format"	"value_is_percentage"
+			"hidden"				"0"
+			"effect_type"			"negative"
+		}
+		"7669"
+		{
+			"name"					"Crit vs tranq"
+			"description_string"	"100% critical chance vs tranquilized players"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"positive"
+		}
+		"7670"
+		{
+			"name"					"No primary ammo from all sources"
+			"description_string"	"Cannot pick up ammo from dropped weapons, ammo packs or dispensers"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"negative"
+		}
+		"7671"
+		{
+			"name"					"Chicken jank"
+			"description_string"	"Thrown Chickens have a very silly flight path"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"negative"
+		}
+		"7672"
+		{
+			"name"					"S.A.W Shredder"
+			"description_string"	"Attacks shred victims and always crit"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"positive"
+		}
+		"7673"
+		{
+			"name"					"Heavy Weapon Downside"
+			"description_string"	"Heavy Weapon: slower handling and mobility on wearer"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"negative"
+		}
+		"7674"
+		{
+			"name"					"No Damage After Use"
+			"description_string"	"Deals no damage once energy is expended"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"negative"
+		}
+		"7675"
+		{
+			"name"					"No Wrench Upgrade"
+			"description_string"	"Wrench cannot repair or upgrade buildings"
+			"description_format"	"value_is_percentage"
+			"hidden"				"0"
+			"effect_type"			"negative"
+		}
+		"7676"
+		{
+			"name"					"Bonus Ramp-Up"
+			"description_string"	"%s1% increased close range damage"
+			"description_format"	"value_is_percentage"
+			"hidden"				"0"
+			"effect_type"			"positive"
+		}
+		"7677"
+		{
+			"name"					"Bonus Regen on Kill"
+			"description_string"	"On Kill: Gain 50% increased self-healing for %s1 seconds"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"positive"
+		}
+		"7678"
+		{
+			"name"					"Chain Grinder Special"
+			"description_string"	"Damage increases out to medium range then falls off at long range"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"neutral"
+		}
+		"7679"
+		{
+			"name"					"Enforcer Executioner Special"
+			"description_string"	"This weapon fires six high-damage pellets with improved close range and long range damage"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"neutral"
+		}
+		"7680"
+		{
+			"name"					"Runt Equipment"
+			"description_string"	"Scout turned Recon: You gain access to a rifle primary weapon"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7681"
+		{
+			"name"					"Scottish Steel Equipment"
+			"description_string"	"Medieval Monster: This suit of armour provides you with a Cannon weapon"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7682"
+		{
+			"name"					"Demolitions Expert Equipment"
+			"description_string"	"Explosive Control: This item gives you a special crowd control burst grenade launcher"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7683"
+		{
+			"name"					"Honcho Hunter Equipment"
+			"description_string"	"Mafia's Debt: This item grants you an auto-gatling gun primary"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7684"
+		{
+			"name"					"Neutronium Bisector Special"
+			"description_string"	"Atomic One-Two Punch: Landing both shots successfully causes the second shot to mini-crit"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7685"
+		{
+			"name"					"Cloak on Hit"
+			"description_string"	"On Hit: Turn invisible for %s1 seconds"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"neutral"
+		}
+		"7686"
+		{
+			"name"					"Last Laugh Special"
+			"description_string"	"This weapon fires a large spread of many pellets"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7687"
+		{
+			"name"					"Sandmate Special"
+			"description_string"	"This weapon launches a ball that damages enemies instead of doing melee damage"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7688"
+		{
+			"name"					"Shellraiser Braced Mechanic"
+			"description_string"	"Alt-Fire: Enter Braced Stance"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"	
+			"effect_type"			"positive"
+		}
+		"7689"
+		{
+			"name"					"Shellraiser Braced Description"
+			"description_string"	"Braced Stance: Gain improved accuracy at the cost of move speed"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}	
+        "7690"
+		{
+			"name"					"Aggressive Frontier Special"
+			"description_string"	"Launches arcing plasma balls that detonate at medium range"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}	
+        "7691"
+		{
+			"name"					"Bucket Special"
+			"description_string"	"Explosive Force Multiplier: Shooting the bucket with your rocket will make it explode for huge damage"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}	
+        "7692"
+		{
+			"name"					"Shotgun Slugs"
+			"description_string"	"Fires slug projectiles instead of pellets"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}	
+        "7693"
+		{
+			"name"					"Garand Description"
+			"description_string"	"Fires rifle bullets instead of pellets and reloads all of its shots at once"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}		
+		"7694"
+		{
+			"name"					"Titanium Torcher Special"
+			"description_string"	"This weapon has the same function as the Minigun"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}	
+		"7695"
+		{
+			"name"					"Shotgun Grenade Override"
+			"description_string"	"This weapon fires grenades instead of pellets"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7696"
+		{
+			"name"					"Spark Shower Special"
+			"description_string"	"This weapon fires a huge burst of sparks with limited range"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7697"
+		{
+			"name"					"THROWS TRASH ALL OVER THE ARENA THEN I START EATING GARBAGE"
+			"description_string"	"This weapon fires a really fucking big pile of trash that explodes on contact"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7698"
+		{
+			"name"					"It's a Machine Gun!"
+			"description_string"	"Free-Fire: No spin-up required but has to reload"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7699"
+		{
+			"name"					"heal on smack DISPLAY ONLY DEFIB"
+			"description_string"	"Hit teammates at maximum charge to heal them for 75% health"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"positive"
+		}
+		"7700"
+		{
+			"name"					"Medical Administration Defense"
+			"description_string"	"On Hit: Gain damage resistance and bonus health regeneration for %s1 seconds"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"positive"
+		}
+		"7701"
+		{
+			"name"					"Ram Rancher"
+			"description_string"	"Fires rifle rounds instead of pellets"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}	
+		"7702"
+		{
+			"name"					"Hardhat's Description"
+			"description_string"	"This weapon fires large energy balls that are affected by gravity"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7703"
+		{
+			"name"					"Ironclad Replacer"
+			"description_string"	"Replaces your Sentry with an Ironclad Artillery Sentry"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7704"
+		{
+			"name"					"Mini-Sentry Replacer"
+			"description_string"	"Replaces your Sentry with a Combat Mini-Sentry"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7705"
+		{
+			"name"					"Mann-Buster Bomb"
+			"description_string"	"This weapon launches a grenade that explodes on contact instead of doing melee damage"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7706"
+		{
+			"name"					"Royal Flush Burst"
+			"description_string"	"Hold the fire button to throw 3 cards in quick succession"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7707"
+		{
+			"name"					"Electrocutor Lasers"
+			"description_string"	"This weapon fires lasers that deal high damage"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7708"
+		{
+			"name"					"No backstab"
+			"description_string"	"Cannot backstab"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"negative"
+		}
+		"7709"
+		{
+			"name"					"HE'S PULLING HIS COCK OUT!"
+			"description_string"	"Pull your cock out and start throwing it at people!"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"negative"
+		}
+		"7710"
+		{
+			"name"					"Like the Founding Fathers Intended"
+			"description_string"	"Founding-Father Intended Modification: This Musket is loaded with high-density shot"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"negative"
+		}
+		"7711"
+		{
+			"name"				    "Slap to Heal"
+			"description_string"	"Slap an ally to restore 20% of their health"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"positive"
+		}
+		"7712"
+		{
+			"name"					"Shotgun Slugs Hitscan"
+			"description_string"	"Fires hitscan slugs instead of pellets"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}	
+		"7713"
+		{
+			"name"					"Astronaut Mastery"
+			"description_string"	"Astronaut Mastery: while airborne:"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7714"
+		{
+			"name"					"Astronaut Mastery Ascend"
+			"description_string"	"Press jump to invert your current momentum"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7715"
+		{
+			"name"					"Astronaut Mastery Plasma"
+			"description_string"	"Fires plasma projectiles with limited range"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7716"
+		{
+			"name"					"Minicrit vs Bleeding"
+			"description_string"	"100% mini-crits vs bleeding enemies"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"positive"
+		}
+		"7717"
+		{
+			"name"					"Tokamak Beam"
+			"description_string"	"This weapon fires a powerful sustained beam of electricity"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+	    }
+		"7718"
+		{
+			"name"					"Diffused Fuel Mix"
+			"description_string"	"Diffused Fuel Mix: Increased flame reach and spread with reduced damage and afterburn time"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"neutral"
+	    }
+		"7719"
+		{
+			"name"					"cloak no blink"
+			"description_string"	"No cloak blinking when bumping into enemies or taking damage"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"positive"
+	    }
+		"7720"
+		{
+			"name"					"Civ no manual boost"
+			"description_string"	"No manual boost"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"negative"
+	    }
+		"7721"
+		{
+			"name"					"Spanner Special"
+			"description_string"	"Tech Novice: This weapon can assist in construction and repairs of friendly buildings"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"positive"
+	    }
+		"7722"
+		{
+			"name"					"Rage gain bonus"
+			"description_string"	"%s1% rage gained on hit"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"0 255 0 255"	
+			"effect_type"			"positive"
+	    }
+		"7723"
+		{
+			"name"					"AT Rifle"
+			"description_string"	"Fires anti-tank rounds that instantly kill anything with a full charge"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"positive"
+	    }
+		"7724"
+		{
+			"name"					"Crook Knife Special"
+			"description_string"	"On Kill: Become invisible for %s1 seconds"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"positive"
+	    }
+		"7725"
+		{
+			"name"					"Eephus Bat'er up!"
+			"description_string"	"This weapon fires modified baseballs that explode on impact"
+			"description_format"	"value_is_additive"
+			"custom_color"	        "225 215 0 255"	
+			"hidden"				"0"
+			"effect_type"			"positive"
+	    }
+		"7726"
+		{
+			"name"					"Outcast Engineer"
+			"description_string"	"You cannot build sentry guns with this augmentation equipped"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"negative"
+	    }
+		"7727"
+		{
+			"name"					"Long Range Mastery"
+			"description_string"	"Fires high-velocity rounds that have no damage fall-off"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"positive"
+	    }
+		"7728"
+		{
+			"name"				    "Long Range Scope"
+			"description_string"	"This weapon has a high-zoom scope with an increased charge speed"
+			"description_format"	"value_is_additive"
+			"custom_color"	        "225 215 0 255"	
+			"hidden"				"0"
+			"effect_type"			"positive"
+	    }
+		"7729"
+		{
+			"name"				    "Quad Reload"
+			"description_string"	"Reloads all rockets at once"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"positive"
+	    }
+		"7730"
+		{
+			"name"				    "Combination Weapon"
+			"description_string"	"Say hello to my Little Friend!: Alt-Fire (Mouse2): Fire a grenade"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"	        "225 215 0 255"
+			"effect_type"			"positive"
+	    }
+		"7731"
+		{
+			"name"	                "rocket mortar mode"
+			"attribute_class"	    "rocket_mortar"
+			"description_string"	"Alt-Fire: Launch a dud rocket that travels in an arc"
+			"description_format"	"value_is_additive"
+			"custom_color"	        "225 215 0 255"
+			"effect_type"	"positive"
+		}
+		"7732"
+		{
+			"name"	                "Ripsaw Special"
+			"description_string"	"Consecutive hits increase the damage of the next shot"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7733"
+		{
+			"name"	                "Ammo Refresh on Kill"
+			"description_string"	"On Kill: Fully restore primary ammo"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7734"
+		{
+			"name"	                "Gain Health on Activation"	
+			"description_string"	"On Activation near an enemy: restore all HP and overheal yourself"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}	
+		"7735"
+		{
+			"name"	                "Heal requires enemy LoS"	
+			"description_string"	"Must be in enemy line-of-sight for activation to successfully trigger"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}	
+		"7736"
+		{
+			"name"	                "Chainsaw Massacre"
+			"description_string"	"Thirst for Blood: Gain all of your health back on kill but you cannot overheal"
+			"description_format"	"value_is_additive"
+			"custom_color"	        "225 215 0 255"
+			"effect_type"			"negative"
+		}	
+		"7737"
+		{
+			"name"	                "SLAM Special"
+			"description_string"	"Stickybombs can be exploded manually or by firing a second stickybomb"
+			"description_format"	"value_is_additive"
+			"custom_color"	        "225 215 0 255"
+			"effect_type"			"negative"
+		}
+		"7738"
+		{
+			"name"	                "PARRY THE PLATYPUS!?!"
+			"description_string"	"Parry: unlimited projectile deflection with no mini-crits or enemy pushback"
+			"description_format"	"value_is_additive"
+			"custom_color"	        "225 215 0 255"
+			"effect_type"			"negative"
+		}
+		"7739"
+		{
+			"name"	                "875 bullets"
+			"description_string"	"This weapon contains a LOT of bullets... hold the fire button to spread American freedom!"
+			"description_format"	"value_is_additive"
+			"custom_color"	        "225 215 0 255"
+			"effect_type"			"negative"
+		}
+		"7740"
+		{
+			"name"	                "Dispenserizer Special"
+			"description_string"	"Place up to 4 mini-dispenser bombs that explode near enemies or through manual detonation"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7741"
+		{
+			"name"	                "SuperSoldat Minigun"
+			"description_string"	"Super Heavy Weaponry: you gain access to a heavy-duty minigun"
+			"description_format"	"value_is_additive"
+			"custom_color"	        "225 215 0 255"
+			"effect_type"			"negative"
+		}
+		"7742"
+		{
+			"name"	                "SuperSoldat Impact"
+			"description_string"	"Fall damage taken causes a damaging earthquake around you"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7743"
+		{
+			"name"	                "SuperSoldat High Mass"
+			"description_string"	"Extreme Weight: reduced move speed, jump height, switch speed and you fall faster"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"7744"
+		{
+			"name"	                "Increased uber duration texted"
+			"description_string"	"ÜberCharge duration increased by %s1 second"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"7745"
+		{
+			"name"	                "nader residual heal complete bonus"
+			"description_string"	"%s1% increased residual heal rate and duration"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}"7746"
+		{
+			"name"	                "nader residual heal bonus"
+			"description_string"	"%s1% increased residual heal rate"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"7747"
+		{
+			"name"	                "nader residual heal duration bonus"
+			"description_string"	"%s1% increased residual heal duration"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		"7748"
+		{
+			"name"	                "nader direct hit heal penalty"
+			"description_string"	"%s1% healing on hit penalty"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		
+// Here comes "the funny"
+
+		"7749"
+		{
+			"name"					"davie crocket unique" 
+			"description_string"	"Shoots miniature Nuclear Bombs that deal more damage the further you are"												
+			"custom_color"	        "225 215 0 255"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		
+		"7750"
+		{
+			"name"					"Toxin Property" 
+			"description_string"	"On hit: Apply %s1 seconds of Toxin to target
+Toxin reduces healing from healers by 75%"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		
+		"7751"
+		{
+			"name"					 "Cattle Prod"
+			"description_string"	"On Hit: Electrocute an enemy for a brief moment"												
+			"custom_color"	        "225 215 0 255"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		
+		"7752"
+		{
+			"name"					"trickshot positive" 
+			"description_string"	"Bullet gains +7.5 damage for each ricochet"										
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		
+		"7753"
+		{
+			"name"					"trickshot negative" 
+			"description_string"	"Bullet shatters after 2 seconds if no enemy is hit"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		
+		"7754"
+		{
+			"name"					"mod coil bounce damage percentage"
+			"attribute_class"		"mod_coil_bounce_damage_penalty"
+			"description_format"	"value_is_percentage"
+			"hidden"				"0"
+		}
+		
+		"7755"
+		{
+			"name"					"davie crocket negative" 
+			"description_string"	"Only holds 1 nuke at a time that can only be replenished through a resupply locker"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		
+		"7756"
+		{
+			"name"					"combatant unique"
+			"description_string"	"Alt-fire (Mouse2): Toggle user control of rockets!"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"neutral"
+		}
+		"7757"
+		{
+			"name"					"Anti-air"
+			"description_string"	"Knocks out and force airborne targets to the ground"												
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"positive"
+		}
+		
+// Civvie Loadout nonsense BLEGH
+       
+	    "8000"
+		{
+			"name"					"Loadout Type: Support"
+			"description_string"	"Loadout role type: Support"												
+			"description_format"	"value_is_additive"
+			"custom_color"			"24 200 96 255"	
+			"effect_type"			"positive"
+		}
+		"8001"
+		{
+			"name"					"Loadout Type: Damage"
+			"description_string"	"Loadout role type: Damage Dealer"												
+			"description_format"	"value_is_additive"
+			"custom_color"			"180 80 70 255"	
+			"effect_type"			"positive"
+		}
+		"8002"
+		{
+			"name"					"Loadout Type: Ambush"
+			"description_string"	"Loadout role type: Ambusher"												
+			"description_format"	"value_is_additive"
+			"custom_color"			"125 64 225 255"	
+			"effect_type"			"positive"
+		}
+		"8003"
+		{
+			"name"					"Loadout Slot: Primary"
+			"description_string"	"Primary Weapon:"												
+			"description_format"	"value_is_additive"
+			"custom_color"			"50 156 90 255"	
+			"effect_type"			"positive"
+		}
+		"8004"
+		{
+			"name"					"Loadout Slot: Secondary"
+			"description_string"	"Secondary Weapon:"												
+			"description_format"	"value_is_additive"
+			"custom_color"			"50 156 90 255"	
+			"effect_type"			"positive"
+		}
+		"8005"
+		{
+			"name"					"Loadout Slot: Melee"
+			"description_string"	"Melee Weapon:"												
+			"description_format"	"value_is_additive"
+			"custom_color"			"50 156 90 255"	
+			"effect_type"			"positive"
+		}
+		"8006"
+		{
+			"name"					"Loadout Slot: Special Weapon"
+			"description_string"	"Special Weapon:"												
+			"description_format"	"value_is_additive"
+			"custom_color"			"50 156 90 255"	
+			"effect_type"			"positive"
+		}
+		"8007"
+		{
+			"name"					"Loadout Weapon: Vanilla Primary"
+			"description_string"	"Corporate Enforcer (Shotgun)
+Ol' Reliable, point n' shoot for big close-range damage"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8008"
+		{
+			"name"					"Loadout Weapon: Vanilla Secondary"
+			"description_string"	"Taxpayer's Collector (Pistol)
+Every upstanding citizen needs a good, trusty sidearm"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8009"
+		{
+			"name"					"Loadout Weapon: Vanilla Melee"
+			"description_string"	"Umbrella (Melee)
+Alt-Fire (Mouse2): Buff an ally with mini-crits for 8 seconds! (16 sec cooldown)"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8010"
+		{
+			"name"					"Loadout Aura: Defense"
+			"description_string"	"Aura: Damage resistance and health regeneration"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8011"
+		{
+			"name"					"Loadout Aura: Mini-Crit"
+			"description_string"	"Aura: Mini-Crits"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8012"
+		{
+			"name"					"Buff Vulnerability"
+			"description_string"	"%s1% reduced healing from all sources"												
+			"description_format"	"value_is_percentage"
+			"effect_type"			"negative"
+		}
+		"8013"
+		{
+			"name"					"Severe Buff Vulnerability"
+			"description_string"	"Huge increase in damage taken, unable to move nor be healed while this weapon is active"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"8014"
+		{
+			"name"					"Loadout Weapon: Haste Primary"
+			"description_string"	"Economists's Short-Stick (Shotgun)
+Flip 'em off with a high-power shot to the chest"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8015"
+		{
+			"name"					"Loadout Weapon: Haste Secondary"
+			"description_string"	"Backup Plan (Revolver)
+6 shots is plenty enough to kill most men"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8016"
+		{
+			"name"					"Loadout Weapon: Haste Melee"
+			"description_string"	"Derby Cane (Melee)
+Alt-Fire (Mouse2): Buff an ally with Haste for 8 seconds! (16 sec cooldown)"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8017"
+		{
+			"name"					"Loadout Weapon: Crook Primary"
+			"description_string"	"Check Printer (SMG)
+Optimal range is being inside of a phone booth..."												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8018"
+		{
+			"name"					"Loadout Weapon: Crook Secondary"
+			"description_string"	"Brickhouse Beatdown (Throwable)
+Never underestimate the threat level of a thrown brick"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8019"
+		{
+			"name"					"Loadout Weapon: Crook Melee"
+			"description_string"	"Crooked Cleaver (Melee)
+Alt-Fire (Mouse2): Highlight an enemy for 3 seconds! (3 sec cooldown)"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8020"
+		{
+			"name"					"Loadout Weapon: Pimp Primary"
+			"description_string"	"Inquisitor (Revolver)
+Fear the man with the golden gun..."												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8021"
+		{
+			"name"					"Loadout Weapon: Pimp Secondary"
+			"description_string"	"Backhand (Melee)"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8022"
+		{
+			"name"					"Loadout Weapon: Pimp Melee"
+			"description_string"	"Lord of the House (Melee)
+Alt-Fire (Mouse2): Buff an ally with Haste for 10 seconds! (16 sec cooldown)"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8023"
+		{
+			"name"					"Loadout Weapon: Cook Primary"
+			"description_string"	"Sub-Sandvich (Shotgun)
+Make your enemies eat lead, fresh from this gun's barrel"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8024"
+		{
+			"name"					"Loadout Weapon: Cook Secondary"
+			"description_string"	"Little Willy (Chicken)
+Every chef needs a good supply of produce..."												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8025"
+		{
+			"name"					"Loadout Weapon: Cook Melee"
+			"description_string"	"Frying Pan (Melee)
+Your ears won't be the only thing that'll be bleeding..."												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8026"
+		{
+			"name"					"Loadout Weapon: Gunner Primary"
+			"description_string"	"Big Spender (Machine Gun)
+...You're compensating for something, Mr Jenkins"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8027"
+		{
+			"name"					"Loadout Weapon: Gunner Secondary"
+			"description_string"	"Gunner's Up (Revolver)
+A gun loaded with 44 magnum is no child's play..."												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8028"
+		{
+			"name"					"Loadout Weapon: Gunner Melee"
+			"description_string"	"Frag Grenades (Throwable)
+Fire in the hole! just don't blow yourself up with them"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8029"
+		{
+			"name"					"Loadout Weapon: Mobster Primary"
+			"description_string"	"Chicago Typewriter (SMG)
+A deal-maker and deal-breaker in one mean package"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8030"
+		{
+			"name"					"Loadout Weapon: Mobster Secondary"
+			"description_string"	"Sleight of Hand (Pistol)
+...There's always a trick up your sleeve"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8031"
+		{
+			"name"					"Loadout Weapon: Mobster Melee"
+			"description_string"	"Backstreet Butcher (Melee)
+Perfect for quick, quiet takedowns on unsuspecting targets..."												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8032"
+		{
+			"name"					"Loadout Weapon: Engi Primary"
+			"description_string"	"Custom Constructor (Nail Gun)
+If you want a job done right, do it yourself"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8033"
+		{
+			"name"					"Loadout Weapon: Engi Secondary"
+			"description_string"	"Dispenserizer (Building Launcher)
+If you can't build proper dispensers, turn them into bombs"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8034"
+		{
+			"name"					"Loadout Weapon: Engi Melee"
+			"description_string"	"Spanner (Melee)
+If you can't build, just use your spanner to bludgeon people"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8035"
+		{
+			"name"					"Loadout Weapon: Chemist Primary"
+			"description_string"	"Personal Death Ray (Ray Gun)
+Experimental pieces of hardware are hardly worth trusting with your life"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8036"
+		{
+			"name"					"Loadout Weapon: Chemist Secondary"
+			"description_string"	"Chemical Cauterizer (Healing Throwable)
+Stolen straight from Medic's secret stash!"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8037"
+		{
+			"name"					"Loadout Weapon: Chemist Melee"
+			"description_string"	"Corrosive Canister (Toxin Throwable)
+Who knows what was used to make this jar of nastiness..."												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8038"
+		{
+			"name"					"Loadout Weapon: Poacher Primary"
+			"description_string"	"Hunter's Spirit (Revolver Rifle)
+Big enough to kill most targets, that's for sure"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8039"
+		{
+			"name"					"Loadout Weapon: Poacher Secondary"
+			"description_string"	"Pocket Boomstick (Sawed-Off Shotgun)
+A wonderful backup for when your victim starts getting too close for comfort..."												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8040"
+		{
+			"name"					"Loadout Weapon: Poacher Melee"
+			"description_string"	"Hunter's Mann-Trap (Bear Trap)
+When you need somebody to sit still so you can take the perfect shot"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"8041"
+		{
+			"name"					"Loadout Weapon: Poacher Gimmick"
+			"description_string"	"Place down up to 3 traps at any given time"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"8042"
+		{
+			"name"					"Loadout Weapon: Poacher Gimmick 2"
+			"description_string"	"On Trap Activation: Tranq, Highlight, Slow and bleed for %s1 seconds"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+
+
+//clooey zone
+
+		"12000"
+		{
+			"name"					"medigun heal enemy"
+			"description_string"	"Beam can be applied to enemies"
+			"effect_type"			"positive"
+		}
+		"12001"
+		{
+			"name"					"medigun apply poison"
+			"description_string"	"Deals damage, applies Toxin to enemies"
+			"effect_type"			"positive"
+		}
+		"12002"
+		{
+			"name"					"medigun leech health"
+			"description_string"	"Steals health from enemies"
+			"effect_type"			"positive"
+		}
+		
+		"12003"
+		{
+			"name"					"jump action"
+			"description_string"	"Dealing damage and killing stores extra jumps, up to a maximum of 10"
+			"attribute_class"		"custom_jumpaction"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		
+		"12004"
+		{
+			"name"					"lifesteal damage"
+			"description_string"	"%s1% of damage done is returned as health"
+			"description_format"	"value_is_additive_percentage"
+			"effect_type"			"positive"
+		}
+		"12005"
+		{
+			"name"					"hurt on shot"
+			"description_string"	"Per Shot: -%s1 health"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		
+		"12500"
+		{
+			"name"					"resist toxin enemies"
+			"description_string"	"%s1% damage from Toxified enemies"
+			"description_format"	"value_is_percentage"
+			"effect_type"			"positive"
+		}
+		
+		"12600"
+		{
+			"name"					"engineer ammo teleporting pickup"
+			"description_string"	"Reload: Pick up targeted ammo from the ground or friendly dispensers"
+			"effect_type"			"positive"
+		}
+		
+		
+		
+// NOWP Attributes 
+        "15083"
+		{
+			"name"					"thermal thruster nowp"
+			"description_string"	"Blast off and fly using your jetpack!"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"15122"
+		{
+			"name"					"hide_attrib_additive"										// Yes... It unfortunately only occurred to me to make this, -AFTER- I did everything else. I may be a bit stupid.
+			"attribute_class"		"DISPLAY_ONLY"												// These are only for backend purposes. You can replace them with any similar stock attribute of the same kind, doesn't matter.
+			"description_format"	"value_is_additive"
+			"hidden"				"1"
+		}
+		"15123"
+		{
+			"name"					"hide_attrib_percentage"
+			"attribute_class"		"DISPLAY_ONLY"
+			"description_format"	"value_is_percentage"
+			"hidden"				"1"
+		}
+		"15139"
+		{
+			"name"					"projectile detonates with rocket"
+			"attribute_class"		"mirv_detonate_with_rocket_radius"
+			"description_string"	"Rockets will detonate grenades on contact"
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+		"15140"
+		{
+			"name"					"Shork wtf"
+			"description_string"	"Guaranteed to inflict critical emotional damage to your enemies"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"15141"
+		{
+			"name"					"Shork ouch"
+			"description_string"	"100% chance to feel sad over throwing such an expensive plushie only to get it covered in dirt and blood"
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+// Fred's Attributes
+		"9901"
+		{
+			"name"	"bullets per shot penalty"
+			"attribute_class"	"mult_bullets_per_shot"
+			"description_string"	"#Attrib_BulletsPerShot_Penalty"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"9902"
+		{
+			"name"	"tranq frost"
+			"attribute_class"	"mod_tranq_onhit"
+			"description_string"	"#Attrib_TranqFrost"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"9903"
+		{
+			"name"	"damage penalty vs burning"
+			"attribute_class"	"mult_dmg_vs_burning"
+			"description_string"	"#Attrib_DmgPenaltyVsBurning"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"9904"
+		{
+			"name"	"keep disguise KNIFE"
+			"attribute_class"	"set_keep_disguise"
+			"description_string"	"#Attrib_KeepDisguiseKnife"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
+		"9905"
+		{
+			"name"	"move speed penalty while cloaked"
+			"attribute_class"	"mult_player_movespeed_cloaked"
+			"description_string"	"#Attrib_MoveSpeed_Penalty_Cloaked"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"armory_Desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		"9906"
+		{
+			"name"	"dmg bonus vs players"
+			"attribute_class"	"mult_dmg_vs_players"
+			"description_string"	"#Attrib_DmgVsPlayer_Increased"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"9907"
+		{
+			"name"	"no cloak"
+			"attribute_class"	"mult_cloak_rate"
+			"description_string"	"#Attrib_NoCloak"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"9908"
+		{
+			"name"	"no_fixed_spread"
+			"attribute_class"	"fixed_shot_pattern"
+			"description_string"	"#Attrib_NoFixedSpread"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		
+		// Pancak
+		"13000"
+		{
+			"name"					"sawblade unique" 
+			"description_string"	"Shoots sawblades that bounce off wall when the weapon is charged"												
+            "custom_color"			"223 203 51 255"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"13001"
+		{
+			"name"					"bombmedigun unique" 
+			"description_string"	"Shoots healing grenades that quickly heal patients for up to 40 HP within the splash radius"												
+            "custom_color"			"223 203 51 255"
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		"13002"
+		{
+			"name"					"bombmedigun negative"
+			"description_string"	"-33% ÜberCharge duration
+-33% Overheal fill amount
+-50% Overheal penalty"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		"13003"
+		{
+			"name"					"bombmedigun positive"
+			"description_string"	"Press Mouse3 to ÜberCharge someone
+ÜberCharge is flashed to everyone caught in the blast radius"												
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		
+		// Renaissance Revival, a Medieval-Mode Weapons Pack
+		// Version 1.0
+		// Made by Yakibomb
+		
+		"30000"
+		{
+			"name"	"hidden attr"
+			"attribute_class"	"obsolete"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30001"
+		{
+			"name"	"maxammo metal reduced not active"
+			"attribute_class"	"mult_maxammo_metal"
+			"description_string"	"%s1% max metal while weapon is not active"	//description string doesn't work as of 2.0.3
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30002"
+		{
+			"name"	"mod ammo per shot percentage"
+			"attribute_class"	"mod_ammo_per_shot"
+			"description_string"	"#Attrib_AmmoPerShot"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30003"
+		{
+			"name"	"provide on active HIDDEN"
+			"attribute_class"	"provide_on_active"
+			"description_string"	"#Attrib_ProvideOnActive"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		"30004"
+		{
+			"name"	"dmg taken reduced"
+			"attribute_class"	"mult_dmgtaken"
+			"description_string"	"#Attrib_DmgTaken_Increased"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30005"
+		{
+			"name"	"UNIQUE wep switch speed reduced"
+			"attribute_class"	"mult_deploy_time"
+			"description_string"	"#Attrib_DeployTime_Increased"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30006"
+		{
+			"name"	"dmg from melee reduced DISPLAY ONLY"
+			"description_string"	"#Attrib_DmgFromMelee_Increased"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30007"
+		{
+			"name"	"UNIQUE melee range multiplier"
+			"attribute_class"	"melee_range_multiplier"
+			"description_string"	"#Attrib_MeleeRangeMultiplier"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30008"
+		{
+			"name"	"UNIQUE dmg from ranged increased"
+			"attribute_class"	"dmg_from_ranged"
+			"description_string"	"#Attrib_DmgFromRanged_Reduced"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30009"
+		{
+			"name"	"UNIQUE single wep deploy time increased"
+			"attribute_class"	"mult_switch_from_wep_deploy_time"
+			"description_string"	"#Attrib_DeployTime_Increased"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30010"
+		{
+			"name"	"UNIQUE melee attack rate penalty"
+			"attribute_class"	"mult_postfiredelay"
+			"description_string"	"#Attrib_MeleeRate_Negative"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30011"
+		{
+			"name"	"UNIQUE uber duration reduced DISPLAY ONLY"
+			"description_string"	"#Attrib_PowerupDuration"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30012"
+		{
+			"name"	"UNIQUE uber duration HIDDEN"
+			"attribute_class"	"add_uber_time"
+			"description_string"	"#Attrib_UberDurationBonus"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		"30013"
+		{
+			"name"	"UNIQUE effect bar recharge rate penalty"
+			"attribute_class"	"effectbar_recharge_rate"
+			"description_string"	"#Attrib_EffectBarRechargeRateIncreased"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30014"
+		{
+			"name"	"UNIQUE medic regen penalty DISPLAY ONLY"
+	//		"attribute_class"	"add_health_regen"
+			"description_string"	"#Attrib_MedicRegenPenalty"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30015"
+		{
+			"name"	"absolutely no healing comes from this weapon whatsoever DISPLAY ONLY"
+			"attribute_class"	"obsolete"
+			"description_string"	"#Attrib_HealRate_Negative"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30016"
+		{
+			"name"	"can headshot DISPLAY ONLY"
+			"attribute_class"	"obsolete"
+			"description_string"	"#Attrib_RevolverUseHitLocations"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30017"
+		{
+			"name"	"UNIQUE ubercharge overheal rate bonus DISPLAY ONLY"
+			"description_string"	"#Attrib_OverhealUberchargeRate_Negative"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30018"
+		{
+			"name"	"UNIQUE metal_pickup_decreased HIDDEN"
+			"attribute_class"	"mult_metal_pickup"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30019"
+		{
+			"name"	"UNIQUE bullets per shot bonus HIDDEN"
+			"attribute_class"	"mult_bullets_per_shot"
+			"description_string"	"#Attrib_BulletsPerShot_Bonus"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30020"
+		{
+			"name"	"UNIQUE mod use metal ammo type HIDDEN"
+			"attribute_class"	"mod_use_metal_ammo_type"
+			"description_string"	"#Attrib_UseMetalAmmoType"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"1"
+		}
+		"30021"
+		{
+			"name"	"UNIQUE engy building health penalty"
+			"attribute_class"	"mult_engy_building_health"
+			"description_string"	"#Attrib_EngyBuildingHealthPenalty"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30022"
+		{
+			"name"	"UNIQUE engineer sentry build rate multiplier HIDDEN"
+			"attribute_class"	"sentry_build_rate_multiplier"
+			"description_string"	"#Attrib_Sentry_Build_Rate"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30023"
+		{
+			"name"	"UNIQUE engineer teleporter build rate multiplier HIDDEN"
+			"attribute_class"	"teleporter_build_rate_multiplier"
+			"description_string"	"#Attrib_Teleporter_Build_Rate"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30024"
+		{
+			"name"	"UNIQUE engineer dispenser build rate multiplier HIDDEN"
+			"attribute_class"	"dispenser_build_rate_multiplier"
+			"description_string"	"#Attrib_Dispenser_Build_Rate"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30025"
+		{
+			"name"	"UNIQUE pda can remote deploy penalty"
+			"attribute_class"	"pda_remote_deploy"
+			"description_string"	"#Attrib_RemoteDeploy"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30026"
+		{
+			"name"	"UNIQUE building cost reduction additive"
+			"attribute_class"	"building_cost_reduction"
+			"description_string"	"#Attrib_BuildingCostReduction"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30027"
+		{
+			"name"	"UNIQUE headshot damage increase HIDDEN"
+			"attribute_class"	"headshot_damage_modify"
+			"description_string"	"#Attrib_HeadshotDamageIncrease"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30028"
+		{
+			"name"	"UNIQUE upgrade rate decrease HIDDEN"
+			"attribute_class"	"upgrade_rate_mod"
+			"description_string"	"#Attrib_UpgradeRate_Decreased"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30029"
+		{
+			"name"	"UNIQUE sentry shoots projectile"
+			"attribute_class"	"set_sentry_projectile"
+			"description_string"	"#Attrib_SentryProjectile"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30030"
+		{
+			"name"	"UNIQUE teleporter is jump pad"
+			"attribute_class"	"set_teleporter_mode"
+			"description_string"	"#Attrib_TeleporterJumpPad"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30031"	// Syntax: "<condition id> <duration>" e.g. "5 2.0"
+		{
+			"name"	"UNIQUE add condition to self on hit"
+			"attribute_class"	"add_onhit_addcond_self"
+			"attribute_type"	"string"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"neutral"
+		}
+		"30032"	// Syntax: "<condition id> <duration>" e.g. "5 2.0"
+		{
+			"name"	"UNIQUE addcond speedboost to self on hit"
+			"attribute_class"	"add_onhit_addcond_self"
+			"attribute_type"	"string"
+			"description_format"	"value_is_additive"
+			"description_string"	"#Attrib_SpeedBoostOnHit"
+			"hidden"	"0"
+			"effect_type"	"positive"
+		}
+		"30033"
+		{
+			"name"	"UNIQUE mod reload full time"	//unused in stock; is this implemented?
+			"attribute_class"	"add_reload_refill_time"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		"30034"
+		{
+			"name"	"UNIQUE crit chance multiplier"
+			"attribute_class"	"mult_crit_chance"
+			"description_string"	"#Attrib_CritChance_Positive"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30035"
+		{
+			"name"	"UNIQUE Construction rate decreased HIDDEN"
+			"attribute_class"	"mult_construction_value"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30036"
+		{
+			"name"	"UNIQUE Repair rate decreased HIDDEN"
+			"attribute_class"	"mult_repair_value"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30037"
+		{
+			"name"	"UNIQUE upgrade rate decrease HIDDEN"
+			"attribute_class"	"upgrade_rate_mod"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30038"
+		{
+			"name"	"UNIQUE upgrade rate decrease additive HIDDEN"
+			"attribute_class"	"upgrade_rate_mod"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		"30039"
+		{
+			"name"	"crit vs playercond HIDDEN"
+			"attribute_class"	"or_crit_vs_playercond"
+			"description_format"	"value_is_or"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30040"
+		{
+			"name"	"UNIQUE projectile spread angle HIDDEN"
+			"attribute_class"	"projectile_spread_angle"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30041"
+		{
+			"name"	"UNIQUE mult decloak rate HIDDEN"
+			"attribute_class"	"mult_decloak_rate"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30042"
+		{
+			"name"	"UNIQUE mult cloak rate HIDDEN"
+			"attribute_class"	"mult_cloak_rate"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30043"
+		{
+			"name"	"UNIQUE cloak regen rate HIDDEN"
+			"attribute_class"	"mult_cloak_meter_regen_rate"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30044"
+		{
+			"name"	"UNIQUE mult cloak meter consume rate HIDDEN"
+			"attribute_class"	"mult_cloak_meter_consume_rate"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30045"
+		{
+			"name"	"UNIQUE move speed bonus while cloaked HIDDEN"
+			"attribute_class"	"mult_player_movespeed_cloaked"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30046"
+		{
+			"name"	"crit vs not playercond HIDDEN"
+			"attribute_class"	"or_crit_vs_not_playercond"
+			"description_format"	"value_is_or"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30047"
+		{
+			"name"	"UNIQUE tranq on hit HIDDEN"
+			"attribute_class"	"mod_tranq_onhit"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30048"
+		{
+			"name"	"UNIQUE maxammo metal HIDDEN"
+			"attribute_class"	"mult_maxammo_metal"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"armory_Desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		"30049"
+		{
+			"name"	"UNIQUE maxammo grenades1 HIDDEN"
+			"attribute_class"	"mult_maxammo_grenades1"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"armory_Desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		"30050"
+		{
+			"name"	"UNIQUE mult dispenser rate"
+			"attribute_class"	"mult_dispenser_rate"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30051"
+		{
+			"name"	"UNIQUE effect bar recharge rate HIDDEN"
+			"attribute_class"	"effectbar_recharge_rate"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30052"
+		{
+			"name"	"UNIQUE stickybomb charge rate HIDDEN"
+			"attribute_class"	"stickybomb_charge_rate"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"1"
+			"effect_type"	"positive"
+		}
+		"30053"
+		{
+			"name"	"UNIQUE explode on damage"
+			"attribute_class"	"explode_on_damage"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"armory_Desc"	"on_hit"
+			"stored_as_integer"	"0"
+		}
+		"30054"
+		{
+			"name"	"UNIQUE crit mod DISPLAY ONLY"
+			"description_string"	"#Attrib_CritChance"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30055"
+		{
+			"name"	"UNIQUE add teleporter cost"
+			"attribute_class"	"mod_teleporter_cost"
+			"description_string"	"#Attrib_TeleporterBuildCost"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30056"
+		{
+			"name"	"UNIQUE mult dispenser rate additive"
+			"attribute_class"	"mult_dispenser_rate"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"30057"
+		{
+			"name"	"UNIQUE rocket gravity HIDDEN"
+			"attribute_class"	"mod_rocket_gravity"
+			"description_format"	"value_is_additive_percentage"
+			"hidden"	"1"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		"30058"
+		{
+			"name"	"UNIQUE melee attack rate bonus"
+			"attribute_class"	"mult_postfiredelay"
+			"description_string"	"#Attrib_MeleeRate_Positive"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"30059"
+		{
+			"name"	"UNIQUE move speed bonus when active"
+			"attribute_class"	"mult_player_movespeed"
+			"description_string"	"#Attrib_SpeedBoostWhenActive"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"armory_Desc"	"on_active"
+			"stored_as_integer"	"0"
+		}
+		
+		// Azzy oops
+
+		"30060"
+		{
+			"name"	"UNIQUE no stickybomb charge rate"
+			"attribute_class"	"stickybomb_charge_rate"
+			"description_format"	"value_is_inverted_percentage"
+			"description_string"	"No stickybomb charge"
+			"effect_type"	"negative"
+		}
+		"30061"
+		{
+			"name"					"brimstone DISPLAY ONLY 1"
+			"attribute_class"		"brimstone_display_1"
+			"description_string"	"Dealing damage fills charge meter"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"neutral"
+		}
+		"30062"
+		{
+			"name"					"brimstone DISPLAY ONLY 2"
+			"attribute_class"		"brimstone_display_2"
+			"description_string"	"Press the Use key (F) when fully charged 
+to activate Slam Fire for 6 seconds
+In Slam Fire: +25% fire rate and infinite clip"
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"hidden"				"0"
+			"effect_type"			"positive"
+		}
+		"30063"
+		{
+			"name"					"mod brimstone slamfire damage required"
+			"attribute_class"		"mod_brimstone_slamfire_damagerequired"
+			"description_format"	"value_is_additive"
+			"hidden"				"0"
+			"effect_type"			"positive"
+		}
+		"30064"
+		{
+			"name"					"mult brimstone slamfire postfiredelay"
+			"attribute_class"		"mult_brimstone_slamfire_postfiredelay"
+			"description_format"	"value_is_percentage"
+			"hidden"				"0"
+			"effect_type"			"positive"
+		}
+		"30065"
+		{
+			"name"					"mult brimstone slamfire duration"
+			"attribute_class"		"mult_brimstone_slamfire_duration"
+			"description_format"	"value_is_percentage"
+			"hidden"				"0"
+			"effect_type"			"positive"
+		}
+		
+		// Colrot's funky stuff
+		
+		"31000" // Negative recharge rate attribute
+		{
+			"name"	"effect bar recharge rate decreased"
+			"attribute_class"	"effectbar_recharge_rate"
+			"description_string"	"%s1% decrease in recharge rate"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		
+		"31001" // No pickup when cloaked
+		{
+			"name"					"cannot pick up all ammo when cloaked"
+			"description_string"	"Cannot pick up ammo while cloaked"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		
+		// VROR MEMEING HERE!!!
+		
+		"32000" // Rollers are fucking bouncy
+		{
+			"name"					"bombs bounce"
+			"description_string"	"Bombs aggresively bounce off surfaces"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"positive"
+		}
+		
+		"32001" // Stickies don't stick
+		{
+			"name"					"bombs no stick"
+			"description_string"	"Bombs don't stick to surfaces"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"positive"
+		}
+		
+		"32002" // Rollers can direct hit
+		{
+			"name"					"bombs direct post bounce"
+			"description_string"	"Always detonate on contact with an enemy"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		
+		"32003" // Stickies don't stick
+		{
+			"name"					"combat control stat"
+			"description_string"	"This weapon fires fast-moving high-explosive slugs"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"positive"
+		}
+		
+		"32004" // Gaelic gibber pipemode
+		{
+			"name"					"gaelic gibber stat"
+			"description_string"	"Fires high damaging grenades that explode on contact with anything but cannot be detonated manually"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"positive"
+		}
+		
+		"32005" // Funny demo flying fist
+		{
+			"name"					"dorn punch stat"
+			"description_string"	"Punch to launch yourself forward and speed boost yourself! (10 sec cooldown)"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"positive"
+		}
+		
+		"32006" // Airburst grenade toss
+		{
+			"name"					"airburst grenade stat"
+			"description_string"	"Alt-Fire to launch a grenade that fizzles on contact with a surface"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"positive"
+		}
+		
+		"32007" // Airburst grenade shoot
+		{
+			"name"					"airburst hitscan stat"
+			"description_string"	"Shoot a grenade midair to detonate it!"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"positive"
+		}
+		
+		"32008" // No manual det
+		{
+			"name"					"no manual detonation"
+			"description_string"	"Can't manually detonate bombs"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"effect_type"			"negative"
+		}
+		
+		"32009" // Bo'ol
+		{
+			"name"					"Scrumpeh"
+			"description_string"	"Launch Nitroglycerin-filled scrumpy bottles at people!"
+			"attribute_type"		"string"													
+			"description_format"	"value_is_additive"
+			"custom_color"			"225 215 0 255"	
+			"effect_type"			"negative"
 		}
 	}
 }
