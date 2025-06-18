@@ -2100,7 +2100,7 @@
 		{
 			"name"						"The Hunting Revolver"
 			"prefab"					"weapon_sniperrifle"
-			"show_in_armory"			"0"
+			"show_in_armory"			"1"
 			"item_class"				"tf_weapon_hunterrifle"
 			"item_logname"				"hunterrifle"
 			"item_iconname"				"hunterrifle"
@@ -2707,7 +2707,7 @@
 		{
 			"name"						"Anti-Aircraft Cannon"
 			"prefab"					"weapon_aagun"
-			"show_in_armory"			"0"
+			"show_in_armory"			"1"
 			"item_name"					"#TF_Weapon_AAGun"
 			"item_description"			"#TF_Weapon_AAGun_Desc"
 			"item_type_name"			"#TF_Weapon_AAGun"
@@ -3273,7 +3273,7 @@ Hiding won't save you now!"
 			"name"						"TF_WEAPON_MAC10"
 			"prefab"					"weapon_pistol"
 			"item_quality"				"normal"
-			"show_in_armory"			"0"
+			"show_in_armory"			"1"
 			"item_slot"					"secondary"
 			"anim_slot"					"item2"
 
@@ -3536,6 +3536,11 @@ Hiding won't save you now!"
 					"attribute_class"	"mult_dmg"
 					"value"				"1.15"
 				}
+				"mod crit airborne simple"
+				{
+					"attribute_class"	"crit_airborne_simple"
+					"value"				"1"
+				}
 				"clip size penalty"
 				{
 					"attribute_class"	"mult_clipsize"
@@ -3629,7 +3634,7 @@ Hiding won't save you now!"
 				"deflection size multiplier"
 				{
 					"attribute_class"	"deflection_size_multiplier"
-					"value"				"0.73"			
+					"value"				"1.15"			
 				}
 			}
 			"visuals"
@@ -3815,17 +3820,17 @@ Hiding won't save you now!"
 				"hide_attrib_additive"
 				{
 					"attribute_class"	"mult_spread_scale"
-					"value"				"0.65"
+					"value"				"0.14"
 				}
 				"bullets per shot bonus"
 				{
 					"attribute_class"	"mult_bullets_per_shot"
-					"value"				"16"
+					"value"				"12"
 				}
 				"apply self knockback hidden"
 				{
 					"attribute_class"	"apply_self_knockback"
-					"value"				"150"
+					"value"				"200"
 				}
 				"weapon enemy knockback mod mult hidden"
 				{
@@ -3850,7 +3855,7 @@ Hiding won't save you now!"
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"				"0.2"
+					"value"				"0.137"
 				}
 			}
 			"visuals"
@@ -3993,7 +3998,7 @@ Hiding won't save you now!"
 
 			"item_name"					"The Population Controller"
 			"item_type_name"			"Flame Thrower"
-"long range tank flamethrower"			
+"item_description"			
 ""
 			"item_logname"				"pop_flamethrower"
 			"item_iconname"				"pop_flamethrower"
@@ -4014,9 +4019,9 @@ Hiding won't save you now!"
 				"mult flame velocity"
 				{
 					"attribute_class"	"mult_flame_velocity"
-					"value" 			"2.25"
+					"value" 			"2"
 				}
-				"weapon_stattrak_module_scale"
+				"flame size bonus"
 				{
 					"attribute_class"	"mult_flame_size"
 					"value" 			"1.2"
@@ -4026,13 +4031,23 @@ Hiding won't save you now!"
 					"attribute_class"	"mult_player_movespeed"
 					"value"				"0.75"
 				}
-               			 "airblast_destroy_projectile DISPLAY ONLY"
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value" 			"0.7"
+				}
+				"crits become minicrits"
+				{
+					"attribute_class"	"crits_become_minicrits"
+					"value"				"1"
+				}
+                "airblast_destroy_projectile DISPLAY ONLY"
 				{
 					"attribute_class"	"DISPLAY_ONLY"
 					"value"				"1"
 				}	
 				"hidden separator"		"1" 
-                		"airblast_destroy_projectile"
+                "airblast_destroy_projectile"
 				{
 					"attribute_class"	"airblast_destroy_projectile"
 					"value"				"1"
@@ -4389,7 +4404,7 @@ Hiding won't save you now!"
 				"heal rate bonus"																
 				{
 					"attribute_class"	"mult_medigun_healrate"
-					"value" 			"1.25"
+					"value" 			"1.5"
 				}
 				"overheal penalty"															
 				{
@@ -4495,7 +4510,7 @@ Hiding won't save you now!"
 				"heal on kill"
 				{
 					"attribute_class"	"heal_on_kill"
-					"value"				"25"
+					"value"				"50"
 				}
 				"fire rate penalty"
 				{
@@ -4521,7 +4536,7 @@ Hiding won't save you now!"
 //			"prefab"					"weapon_flaregun"
 //
 //			"item_quality"				"rarity3"
-//			"show_in_armory"			"0"
+//			"show_in_armory"			"1"
 //			"item_slot"					"secondary"
 //
 //			"item_name"					"Tear Jerker"
@@ -5584,7 +5599,7 @@ Hiding won't save you now!"
 					"attribute_class"	"mult_dmg"
 					"value"				"0.85"			
 				}
-				"Blast radius increased"
+				"Blast radius decreased"
 				{
 					"attribute_class"	"mult_explosion_radius"
 					"value"				"1.35"			
@@ -7091,12 +7106,7 @@ Don't be next on me head-count, lad!"
 				{
 					"attribute_class"	"clipsize_increase_on_kill"
 					"value"				"1"
-				}
-				"fire rate bonus"
-				{
-					"attribute_class"	"display_only" //roughly idk
-					"value"				"0.7"
-				}
+				}				
 				"fire rate bonus"
 				{
 					"attribute_class"	"mult_postfiredelay"
@@ -7843,6 +7853,11 @@ Don't be next on me head-count, lad!"
 					"attribute_class"	"flat_heal_on_afterburn_active"
 					"value"				"3"
 				}
+				"heal on hit for rapidfire"
+				{
+					"attribute_class"	"add_onhit_addhealth"
+					"value"				"2"
+				}
 				"single wep holster time decreased"
 				{
 					"attribute_class"	"mult_switch_from_wep_deploy_time"
@@ -7858,11 +7873,6 @@ Don't be next on me head-count, lad!"
 					"attribute_class"	"mult_wpn_burntime"
 					"value"				"1.2"
 				}
-				"maxammo primary decreased"
-				{
-					"attribute_class"	"mult_maxammo_primary"
-					"value"				"0.5"
-				}
 				"add ammo on kill"
 				{
 					"attribute_class"	"add_ammo_on_kill"
@@ -7872,6 +7882,11 @@ Don't be next on me head-count, lad!"
 				{
 					"attribute_class"	"mult_dmg"
 					"value"				"0.7"
+				}
+				"maxammo primary reduced"
+				{
+					"attribute_class"	"mult_maxammo_primary"
+					"value"				"0.5"
 				}
 				"medigun healing received penalty"
 				{
@@ -8200,7 +8215,7 @@ Don't be next on me head-count, lad!"
 				"ubercharge overheal rate penalty"
 				{
 					"attribute_class"	"mult_medigun_overheal_uberchargerate"
-					"value"				"0.25"
+					"value"				"0.65"
 				}
 			}
 			"visuals"
@@ -8295,7 +8310,7 @@ Don't be next on me head-count, lad!"
 				"gain stored crits on kill"
 				{
 					"attribute_class"	"gain_stored_crits_on_kill"
-					"value" 			"2"
+					"value" 			"3"
 				}
 				"chekhov punch VISUAL ONLY CRITS CONSUMED BY ALL WEAPONS"
 				{
@@ -8667,7 +8682,7 @@ Don't be next on me head-count, lad!"
 				"health regen"								
 				{
 					"attribute_class"	"add_health_regen"
-					"value" 			"25
+					"value" 			"40"
 				}
 				"self mark for death alt"
 				{
@@ -8677,7 +8692,7 @@ Don't be next on me head-count, lad!"
 				"medigun healing received penalty"
 				{
 					"attribute_class"	"mult_medigun_healing_received"
-					"value"				"0.35"
+					"value"				"0.1"
 				}
 				"allowed in medieval mode"
 				{
@@ -8779,7 +8794,7 @@ Don't be next on me head-count, lad!"
 				"wearable cond on effect percent"
 				{
 					"attribute_class"	"add_wearable_cond_on_effect_percent"
-					"value" 			"30 0.5"
+					"value" 			"30 0.25"
 				}
 				"soldier backpack bonus DISPLAY ONLY"
 				{
@@ -9661,7 +9676,7 @@ Alt-Fire: Share an Energy Drink with a friend!
 			
 			"item_name"					"Dalokohs Bar"
 			"item_type_name"			"#TF_Weapon_Lunchbox"
-			"item_description"			"Eat to regain up health
+			"item_description"			"Eat to regain up to 60 health
 Alt-Fire: Share a Chocolate Bar with a friend!
 (Small Health Kit)
 
@@ -9672,7 +9687,7 @@ Alt-Fire: Share a Chocolate Bar with a friend!
 			"attach_to_hands"			"2"
 			"used_by_classes"
 			{
-				"heavy"					"1"
+				"heavy"						"1"
 			}
 			"static_attrs"
 			{
@@ -10700,7 +10715,7 @@ Alt-Fire: Share a Chocolate Bar with a friend!
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"				"0.7"
+					"value"				"0.5"
 				}	
 //				"hidden separator"		"1"	
 //				"deflection size multiplier"
@@ -11869,17 +11884,17 @@ Makes support buildings build faster and increases the Dispenser's range at the 
 				"engy dispenser radius increased"
 				{
 					"attribute_class"	"mult_dispenser_radius"
-					"value"				"2.25"
+					"value"				"2.5"
 				}
 				"engineer dispenser build rate multiplier"
 				{
 					"attribute_class"	"dispenser_build_rate_multiplier"
-					"value"				"2.25"
+					"value"				"2.5"
 				}
 				"engineer teleporter build rate multiplier"
 				{
 					"attribute_class"	"teleporter_build_rate_multiplier"
-					"value"				"2.25"
+					"value"				"2.5"
 				}
 				"strange restriction type 1"								
 				{
@@ -11889,17 +11904,17 @@ Makes support buildings build faster and increases the Dispenser's range at the 
 				"maxammo primary reduced"								
 				{
 					"attribute_class"	"mult_maxammo_primary"
-					"value"				"0.5"
+					"value"				"0.4"
 				}
 				"maxammo secondary reduced"								
 				{
 					"attribute_class"	"mult_maxammo_secondary"
-					"value"				"0.5"
+					"value"				"0.4"
 				}
 				"reload time increased hidden"	
 				{
 					"attribute_class"	"sentry_build_rate_multiplier"
-					"value"				"0.35"
+					"value"				"0.25"
 				}
 			}
 			"mouse_pressed_sound"		"#ui/item_metal_weapon_pickup.wav"
@@ -12359,7 +12374,7 @@ Your ankles are gonna thank you for this!"
 				"rocket gravity"
 				{
 					"attribute_class"	"mod_rocket_gravity"
-					"value"				"3.1"
+					"value"				"2.5"
 				}
 				"longer damage falloff distance"
 				{
@@ -13281,7 +13296,7 @@ IT'S TIME TO STOP!"
 				"fire rate bonus"
 				{
 					"attribute_class"	"mult_postfiredelay"
-					"value"				"0.51"
+					"value"				"0.21"
 				}
 				"damage bonus"
 				{
@@ -14194,7 +14209,7 @@ mixed with the efficacy of a pipe-bomb."
 				"view punch on hit"																	
 				{
 					"attribute_class"	"add_viewpunch_onhit"
-					"value"				"1"
+					"value"				"0"
 				}
 				"tranq on hit"
 				{
@@ -14745,12 +14760,12 @@ Heads will roll."
 				"mult cloak meter regen rate"
 				{
 					"attribute_class"	"mult_cloak_meter_regen_rate"
-					"value"				"14"
+					"value"				"10"
 				}
 				"move speed bonus while cloaked"
 				{
 					"attribute_class"	"mult_player_movespeed_cloaked"
-					"value"				"3"
+					"value"				"2.5"
 				}
 				"mod min cloak to activate"
 				{
@@ -14904,7 +14919,7 @@ How about another drink this time, eh?"
 			"prefab"                    "weapon_umbrella"
 			"item_type_name"			"Money"
 			"show_in_armory"            "1"
-			"item_description"			"Alt-Fire: Give friendly 8s of haste buff!"
+			"item_description"			"Alt-Fire: Give friendly haste buff!"
 			"item_slot"					"melee"
 			"item_quality"				"normal"
 
@@ -15001,7 +15016,7 @@ How about another drink this time, eh?"
 				"max health additive bonus"
 				{
 					"attribute_class"	"add_maxhealth"
-					"value" 			"75"
+					"value" 			"50"
 				}
 				"allowed in medieval mode"
 				{
@@ -15475,7 +15490,7 @@ I will catch up, and I will find you!"
                 "hide_attrib_percentage"	
 				{
 					"attribute_class"	"mult_projectile_speed"
-					"value"				"1.5"
+					"value"				"2"
 				}
 				"custom projectile model"														// The unused dart model!
 				{
