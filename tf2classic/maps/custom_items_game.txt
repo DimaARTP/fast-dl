@@ -8642,7 +8642,7 @@ Don't be next on me head-count, lad!"
 				"health regen"								
 				{
 					"attribute_class"	"add_health_regen"
-					"value" 			"10"
+					"value" 			"25
 				}
 				"self mark for death alt"
 				{
@@ -8652,7 +8652,7 @@ Don't be next on me head-count, lad!"
 				"medigun healing received penalty"
 				{
 					"attribute_class"	"mult_medigun_healing_received"
-					"value"				"0.1"
+					"value"				"0.35"
 				}
 				"allowed in medieval mode"
 				{
