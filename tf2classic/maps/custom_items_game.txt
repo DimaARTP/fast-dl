@@ -2100,7 +2100,7 @@
 		{
 			"name"						"The Hunting Revolver"
 			"prefab"					"weapon_sniperrifle"
-			"show_in_armory"			"1"
+			"show_in_armory"			"0"
 			"item_class"				"tf_weapon_hunterrifle"
 			"item_logname"				"hunterrifle"
 			"item_iconname"				"hunterrifle"
@@ -2707,7 +2707,7 @@
 		{
 			"name"						"Anti-Aircraft Cannon"
 			"prefab"					"weapon_aagun"
-			"show_in_armory"			"1"
+			"show_in_armory"			"0"
 			"item_name"					"#TF_Weapon_AAGun"
 			"item_description"			"#TF_Weapon_AAGun_Desc"
 			"item_type_name"			"#TF_Weapon_AAGun"
@@ -3025,7 +3025,7 @@ Hiding won't save you now!"
 				"weapon spread bonus"
 				{
 					"attribute_class"	"mult_spread_scale"
-					"value"				"1.35"
+					"value"				"0.85"
 				}
 				"take crits from projectile during blast jump"
 				{
@@ -3035,7 +3035,7 @@ Hiding won't save you now!"
 				"deploy time increased"
 				{
 					"attribute_class"	"mult_deploy_time"
-					"value"				"0.85"
+					"value"				"0.8"
 				}
 				"mod crits doubles damage"
 				{
@@ -5577,12 +5577,12 @@ Hiding won't save you now!"
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"				"0.8"			
+					"value"				"0.85"			
 				}
 				"Blast radius increased"
 				{
 					"attribute_class"	"mult_explosion_radius"
-					"value"				"1.5"			
+					"value"				"1.35"			
 				}
 			}
 			"visuals"
@@ -7097,6 +7097,11 @@ Don't be next on me head-count, lad!"
 					"attribute_class"	"mult_postfiredelay"
 					"value"				"0.7"
 				}
+				"Reload time decreased"
+				{
+					"attribute_class"	"mult_reload_time"
+					"value" 			"0.9"
+				}
 				"rocket jump damage reduction"
 				{
 					"attribute_class"	"rocket_jump_dmg_reduction"
@@ -7105,11 +7110,16 @@ Don't be next on me head-count, lad!"
 				"blast splash damage increased"
 				{
 					"attribute_class"	"mult_explosion_splash_damage"
-					"value"				"1.5"
+					"value"				"1.25"
 				}
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
+					"value"				"0.8"
+				}
+				"Blast radius decreased"
+				{
+					"attribute_class"	"mult_explosion_radius"
 					"value"				"0.85"
 				}
 				"take minicrits from projectile during blast jump"
@@ -9742,6 +9752,11 @@ Alt-Fire: Share a Chocolate Bar with a friend!
 					"attribute_class"	"set_dmgtype_ignite"
 					"value"				"1"
 				}
+				"weapon burn dmg increased"
+				{
+					"attribute_class"	"mult_wpn_burndmg"
+					"value"				"1.15"
+				}
 				"dmg taken from burning target reduced on active"
 				{
 					"attribute_class"	"mult_dmgtaken_from_burning_target_active"
@@ -9750,7 +9765,7 @@ Alt-Fire: Share a Chocolate Bar with a friend!
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"				"0.75"
+					"value"				"0.85"
 				}
 				"weapon burn time reduced"
 				{
@@ -10282,7 +10297,7 @@ Alt-Fire: Share a Chocolate Bar with a friend!
 				"Reload time increased"
 				{
 					"attribute_class"	"mult_reload_time"
-					"value"				"1.13"
+					"value"				"1.15"
 				}
 				"deploy time increased DISPLAY ONLY"
 				{
@@ -12863,9 +12878,19 @@ Your ankles are gonna thank you for this!"
 				"dmg bonus vs buildings"
 				{
 					"attribute_class"	"mult_dmg_vs_buildings"
-					"value"				"1.8"
+					"value"				"1.5"
 				}
-				"Blast radius increased"
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"				"1.1"
+				}
+				"no damage falloff over distance"
+				{
+					"attribute_class"	"mod_no_dmg_falloff"
+					"value"				"1"
+				}
+				"Blast radius decreased"
 				{
 					"attribute_class"	"mult_explosion_radius"
 					"value"				"0.55"
@@ -14882,7 +14907,12 @@ How about another drink this time, eh?"
                 "civ boost cond override"
 				{
 					"attribute_class"	"add_civ_boost_override"
-					"value" 			"121 1.25" 
+					"value" 			"121 0.65" 
+				}
+				"civ boost aura override"
+				{
+					"attribute_class"	"add_civ_aura_override"
+					"value"				"32"
 				}
 				"damage penalty"
 				{
