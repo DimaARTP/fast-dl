@@ -4006,20 +4006,25 @@ Hiding won't save you now!"
 			}
 			"attributes"
 			{
-				"dmg taken from bullets reduced"
+				"max health additive bonus"
 				{
-					"attribute_class"	"mult_dmgtaken_from_bullets"
-					"value"				"0.5"
+					"attribute_class"	"add_maxhealth"
+					"value"				"50"
+				}
+				"mult flame velocity"
+				{
+					"attribute_class"	"mult_flame_velocity"
+					"value" 			"2.25"
+				}
+				"weapon_stattrak_module_scale"
+				{
+					"attribute_class"	"mult_flame_size"
+					"value" 			"1.2"
 				}
 				"move speed penalty"
 				{
 					"attribute_class"	"mult_player_movespeed"
-					"value"				"0.45"
-				}
-				"crits become minicrits"
-				{
-					"attribute_class"	"crits_become_minicrits"
-					"value"				"1"
+					"value"				"0.75"
 				}
                 "airblast_destroy_projectile DISPLAY ONLY"
 				{
@@ -7836,7 +7841,27 @@ Don't be next on me head-count, lad!"
 				"flat heal on afterburn on active"
 				{
 					"attribute_class"	"flat_heal_on_afterburn_active"
-					"value"				"2"
+					"value"				"3"
+				}
+				"single wep holster time decreased"
+				{
+					"attribute_class"	"mult_switch_from_wep_deploy_time"
+					"value"				"0.7"
+				}
+				"single wep deploy time decreased"
+				{
+					"attribute_class"	"mult_single_wep_deploy_time"
+					"value"				"0.7"
+				}
+				"weapon burn time increased"
+				{
+					"attribute_class"	"mult_wpn_burntime"
+					"value"				"1.2"
+				}
+				"maxammo primary increased"
+				{
+					"attribute_class"	"mult_maxammo_primary"
+					"value"				"0.5"
 				}
 				"add ammo on kill"
 				{
@@ -7846,7 +7871,7 @@ Don't be next on me head-count, lad!"
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"				"0.8"
+					"value"				"0.7"
 				}
 				"medigun healing received penalty"
 				{
