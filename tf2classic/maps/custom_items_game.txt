@@ -6248,6 +6248,11 @@ Don't be next on me head-count, lad!"
 					"attribute_class"	"mult_single_wep_deploy_time"
 					"value"				"2"
 				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}
 			}
 			"visuals"
 			{
@@ -12374,7 +12379,7 @@ Your ankles are gonna thank you for this!"
 				"rocket gravity"
 				{
 					"attribute_class"	"mod_rocket_gravity"
-					"value"				"2.5"
+					"value"				"2.25"
 				}
 				"longer damage falloff distance"
 				{
@@ -12384,7 +12389,7 @@ Your ankles are gonna thank you for this!"
 				"fire rate bonus"
 				{
 					"attribute_class"	"mult_postfiredelay"
-					"value"				"0.56"
+					"value"				"0.36"
 				}
 				"maxammo primary increased"
 				{
@@ -12682,7 +12687,12 @@ Your ankles are gonna thank you for this!"
 				"damage bonus"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"				"1.2"
+					"value"				"1.1"
+				}
+				"gain stored crits on kill"
+				{
+					"attribute_class"	"gain_stored_crits_on_kill"
+					"value" 			"1"
 				}
 				"mark self on miss"
 				{
@@ -12703,10 +12713,15 @@ Your ankles are gonna thank you for this!"
 				
 				"hidden separator"		"1"			
 
-				"single wep deploy time increased"
+				"single wep deploy time decreased"
 				{
 					"attribute_class"	"mult_single_wep_deploy_time"
-					"value"				"1.25"
+					"value"				"0.9"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
 				}
 				"allowed in medieval mode"
 				{
@@ -13191,6 +13206,11 @@ IT'S TIME TO STOP!"
 				{
 					"attribute_class"	"mult_single_wep_deploy_time"
 					"value"				"2"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
 				}
 				"allowed in medieval mode"
 				{
