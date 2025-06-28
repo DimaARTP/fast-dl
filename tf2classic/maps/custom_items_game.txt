@@ -8868,11 +8868,6 @@ Don't be next on me head-count, lad!"
 					"attribute_class"	"mult_player_movespeed"
 					"value" 			"1.2"
 				}
-				"SET BONUS: health regen set bonus"
-				{
-					"attribute_class"	"add_health_regen"
-					"value" 			"25"
-				}
 				"dmg taken from crit reduced"
 				{
 					"attribute_class"	"mult_dmgtaken_from_crit"
@@ -8940,11 +8935,6 @@ Don't be next on me head-count, lad!"
 				{
 					"attribute_class"	"mult_postfiredelay"
 					"value"				"0.0556"
-				}
-				"SET BONUS: health regen set bonus"
-				{
-					"attribute_class"	"add_health_regen"
-					"value" 			"25"
 				}
 				"mod use custom ammo type"
 				{
