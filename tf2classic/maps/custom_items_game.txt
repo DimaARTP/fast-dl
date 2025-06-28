@@ -4095,6 +4095,11 @@ Hiding won't save you now!"
 					"attribute_class"	"DISPLAY_ONLY"
 					"value"				"1"			
 				}
+				"weapon spread bonus"	
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"				"0.65"
+				}
 				"Reload time increased"
 				{
 					"attribute_class"	"mult_reload_time"
@@ -11894,37 +11899,47 @@ Makes support buildings build faster and increases the Dispenser's range at the 
 				"engy dispenser radius increased"
 				{
 					"attribute_class"	"mult_dispenser_radius"
-					"value"				"2.5"
+					"value"				"1.2"
 				}
 				"engineer dispenser build rate multiplier"
 				{
 					"attribute_class"	"dispenser_build_rate_multiplier"
-					"value"				"2.5"
+					"value"				"4.25"
 				}
 				"engineer teleporter build rate multiplier"
 				{
 					"attribute_class"	"teleporter_build_rate_multiplier"
-					"value"				"2.5"
+					"value"				"4.25"
 				}
 				"strange restriction type 1"								
 				{
 					"attribute_class"	"mult_maxammo_metal"
 					"value"				"75"
 				}
-				"maxammo primary reduced"								
+				"maxammo primary increased"								
 				{
 					"attribute_class"	"mult_maxammo_primary"
-					"value"				"0.4"
+					"value"				"1.25"
 				}
-				"maxammo secondary reduced"								
+				"maxammo secondary increased"								
 				{
 					"attribute_class"	"mult_maxammo_secondary"
-					"value"				"0.4"
+					"value"				"1.25"
+				}
+				"max health additive bonus"	
+				{
+					"attribute_class"	"add_maxhealth"
+					"value"				"50"
 				}
 				"reload time increased hidden"	
 				{
 					"attribute_class"	"sentry_build_rate_multiplier"
-					"value"				"0.25"
+					"value"				"0.05"
+				}
+				"mod sentrygun cost"	
+				{
+					"attribute_class"	"Attrib_SentrygunBuildCost"
+					"value"				"99"
 				}
 			}
 			"mouse_pressed_sound"		"#ui/item_metal_weapon_pickup.wav"
@@ -12047,20 +12062,15 @@ through a frickin' windshield, huh, pal?"
 			}
 			"attributes"
 			{
-				"max health additive bonus"
-				{
-					"attribute_class"	"add_maxhealth"
-					"value" 			"25"
-				}
 				"Construction rate increased"										
 				{
 					"attribute_class"	"mult_construction_value"
-					"value" 			"1.5"
+					"value" 			"2"
 				}
 				"engineer sentry build rate multiplier"										
 				{
 					"attribute_class"	"sentry_build_rate_multiplier"
-					"value" 			"3"
+					"value" 			"3.25"
 				}
 				"sentry cost reduced DISPLAY ONLY"										
 				{
@@ -12075,7 +12085,7 @@ through a frickin' windshield, huh, pal?"
 				"engy building health penalty"										
 				{
 					"attribute_class"	"mult_engy_building_health"
-					"value" 			"0.67"
+					"value" 			"0.47"
 				}				
 				"weak sentry DISPLAY ONLY"									
 				{
@@ -12103,7 +12113,7 @@ through a frickin' windshield, huh, pal?"
 				"engy sentry fire rate increased"									
 				{
 					"attribute_class"	"mult_sentry_firerate"
-					"value" 			"0.75"
+					"value" 			"0.6"
 				}			
 				"mod sentrygun cost"									
 				{
