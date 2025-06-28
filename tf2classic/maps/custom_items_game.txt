@@ -11904,12 +11904,12 @@ Makes support buildings build faster and increases the Dispenser's range at the 
 				"engineer dispenser build rate multiplier"
 				{
 					"attribute_class"	"dispenser_build_rate_multiplier"
-					"value"				"4.25"
+					"value"				"5"
 				}
 				"engineer teleporter build rate multiplier"
 				{
 					"attribute_class"	"teleporter_build_rate_multiplier"
-					"value"				"4.25"
+					"value"				"5"
 				}
 				"strange restriction type 1"								
 				{
@@ -11936,10 +11936,10 @@ Makes support buildings build faster and increases the Dispenser's range at the 
 					"attribute_class"	"sentry_build_rate_multiplier"
 					"value"				"0.05"
 				}
-				"mod sentrygun cost"	
+				"weapon_stattrak_module_scale"	
 				{
-					"attribute_class"	"Attrib_SentrygunBuildCost"
-					"value"				"99"
+					"attribute_class"	"mod_sentrygun_cost"
+					"value"				"534"
 				}
 			}
 			"mouse_pressed_sound"		"#ui/item_metal_weapon_pickup.wav"
