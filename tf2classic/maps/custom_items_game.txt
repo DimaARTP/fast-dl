@@ -11904,12 +11904,12 @@ Makes support buildings build faster and increases the Dispenser's range at the 
 				"engineer dispenser build rate multiplier"
 				{
 					"attribute_class"	"dispenser_build_rate_multiplier"
-					"value"				"5"
+					"value"				"6"
 				}
 				"engineer teleporter build rate multiplier"
 				{
 					"attribute_class"	"teleporter_build_rate_multiplier"
-					"value"				"5"
+					"value"				"6"
 				}
 				"strange restriction type 1"								
 				{
@@ -11921,10 +11921,10 @@ Makes support buildings build faster and increases the Dispenser's range at the 
 					"attribute_class"	"mult_maxammo_primary"
 					"value"				"1.25"
 				}
-				"maxammo secondary increased"								
+				"dispenser rate increased"								
 				{
-					"attribute_class"	"mult_maxammo_secondary"
-					"value"				"1.25"
+					"attribute_class"	"mult_dispenser_rate"
+					"value"				"1.35"
 				}
 				"max health additive bonus"	
 				{
@@ -13275,6 +13275,11 @@ IT'S TIME TO STOP!"
 			}
 			"attributes"
 			{
+			"damage penalty"	
+				{
+					"attribute_class"	"mult_dmg"
+					"value"				"0.5"
+				}
 			}
 			"visuals"
 			{
