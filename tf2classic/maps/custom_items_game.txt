@@ -3055,8 +3055,8 @@ Hiding won't save you now!"
 			}
 			"visuals"
 			{
-				"sound_single_shot"		"Weapon_JungleShotgun.Single"
-				"sound_burst"			"Weapon_JungleShotgun.SingleCrit"
+				"sound_single_shot"		"Weapon_Raiding.Single"
+				"sound_burst"			"Weapon_Raiding.SingleCrit"
 			}
 			"mouse_pressed_sound"		"#ui/shotgun_alt_pickup_stock.wav"
 			"drop_sound"				"#ui/shotgun_alt_drop_stock.wav"
